@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.6.17)  20 JUN 2020 13:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.6.17)  20 JUN 2020 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1448,10 +1448,10 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ] [33
 
 ]
-l.458 --- TeX4ht warning --- File `"power.xbb"' not found ---
-l.458 --- TeX4ht warning --- Cannot determine size of graphic in "power.xbb" (n
-o BoundingBox) ---
-l. 458 --- needs --- power-.png ---
+l.458 --- TeX4ht warning --- File `"../data/power.xbb"' not found ---
+l.458 --- TeX4ht warning --- Cannot determine size of graphic in "../data/power
+.xbb" (no BoundingBox) ---
+l. 458 --- needs --- ../data/power-.png ---
 [34
 
 ] [35
@@ -1465,10 +1465,10 @@ l. 458 --- needs --- power-.png ---
 ] [41
 
 ]
-l.518 --- TeX4ht warning --- File `"power_pi0_BH.xbb"' not found ---
-l.518 --- TeX4ht warning --- Cannot determine size of graphic in "power_pi0_BH.
-xbb" (no BoundingBox) ---
-l. 518 --- needs --- power_pi0_BH-.png ---
+l.518 --- TeX4ht warning --- File `"../data/power_pi0_BH.xbb"' not found ---
+l.518 --- TeX4ht warning --- Cannot determine size of graphic in "../data/power
+_pi0_BH.xbb" (no BoundingBox) ---
+l. 518 --- needs --- ../data/power_pi0_BH-.png ---
 [42
 
 ] [43
@@ -1476,10 +1476,10 @@ l. 518 --- needs --- power_pi0_BH-.png ---
 ] [44] [45] [46
 
 ]
-l.567 --- TeX4ht warning --- File `"pi0_of_lambda.xbb"' not found ---
-l.567 --- TeX4ht warning --- Cannot determine size of graphic in "pi0_of_lambda
-.xbb" (no BoundingBox) ---
-l. 567 --- needs --- pi0_of_lambda-.png ---
+l.567 --- TeX4ht warning --- File `"../data/pi0_of_lambda.xbb"' not found ---
+l.567 --- TeX4ht warning --- Cannot determine size of graphic in "../data/pi0_o
+f_lambda.xbb" (no BoundingBox) ---
+l. 567 --- needs --- ../data/pi0_of_lambda-.png ---
 [47
 
 ] [48
@@ -1499,10 +1499,10 @@ l. 567 --- needs --- pi0_of_lambda-.png ---
 ] [56] [57] [58
 
 ]
-l.699 --- TeX4ht warning --- File `"FDR_of_ro.xbb"' not found ---
-l.699 --- TeX4ht warning --- Cannot determine size of graphic in "FDR_of_ro.xbb
-" (no BoundingBox) ---
-l. 699 --- needs --- FDR_of_ro-.png ---
+l.699 --- TeX4ht warning --- File `"../data/FDR_of_ro.xbb"' not found ---
+l.699 --- TeX4ht warning --- Cannot determine size of graphic in "../data/FDR_o
+f_ro.xbb" (no BoundingBox) ---
+l. 699 --- needs --- ../data/FDR_of_ro-.png ---
 [59
 
 ] [60
@@ -1517,12 +1517,12 @@ l. 699 --- needs --- FDR_of_ro-.png ---
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 28014 strings out of 481240
- 511977 string characters out of 5920403
+ 28015 strings out of 481240
+ 512081 string characters out of 5920403
  864471 words of memory out of 5000000
  42339 multiletter control sequences out of 15000+600000
  548735 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,15n,78p,1561b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (322 pages, 480184 bytes).
+Output written on main.dvi (322 pages, 480312 bytes).

@@ -1,0 +1,20 @@
+% latex table generated in R 3.6.3 by xtable 1.8-4 package
+% Sat Jun 20 13:30:26 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrr}
+  \hline
+ & pi\_0 & E(pi\_0\_hat) \\ 
+  \hline
+0.1 & 0.000 & 0.106 \\ 
+  0.2 & 0.000 & 0.206 \\ 
+  0.3 & 0.000 & 0.303 \\ 
+  0.4 & 0.000 & 0.404 \\ 
+  0.5 & 0.000 & 0.504 \\ 
+  0.6 & 0.000 & 0.602 \\ 
+  0.7 & 0.000 & 0.700 \\ 
+  0.8 & 0.000 & 0.795 \\ 
+  0.9 & 0.000 & 0.891 \\ 
+   \hline
+\end{tabular}
+\end{table}
