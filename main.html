@@ -19,11 +19,11 @@
 <div class='abstract'>
 <div class='centerline'>                                           <span class='ptmb7t-x-x-120'>Abstract</span>                                           </div>
 <p class='noindent'>
-Storey <span class='cite'>[<a href='#XStorey'>1</a>]</span> shed a new light on multiple-testing problem with the definition of positive false discovery rate measure and gave new
+Storey <span class='cite'>[<a href='#XStorey'>1</a>]</span> shed a new light on multiple-testing problem with the definition of positive false discovery rate measure and gave new
 perspective with direct approach to false discovery rates.
 </p>
 <!-- l. 57 --><p class='noindent'>We provide formal introduction to multiple-testing problem and intuitive explanation of Storey’s direct approach. We demonstrate the
-duality between Storey’s direct approach and Benjamini-Hochberg (BH) procedure <span class='cite'>[<a href='#XBH'>2</a>]</span> when using Storey’s estimate
+duality between Storey’s direct approach and Benjamini-Hochberg (BH) procedure <span class='cite'>[<a href='#XBH'>2</a>]</span> when using Storey’s estimate
 <!-- l. 57 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub></math> of the proportion of
 null hypotheses <!-- l. 57 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math>
 in BH procedure.
@@ -38,8 +38,8 @@ the value of the tuning parameter <!-- l. 61 --><math xmlns='http://www.w3.org/1
 and especially by tuning this <!-- l. 61 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>λ</mi></math>
 parameter using the bootstrap method. However this bootstrap method can result in underestimation of
 <!-- l. 61 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math>, as
-already explained in <span class='cite'>[<a href='#XBlack'>3</a>]</span>.
-</p><!-- l. 63 --><p class='noindent'>In case of dependence Storey suggested the same approach <span class='cite'>[<a href='#XDependence'>4</a>]</span>. We show, this time only by simulation, that dependence can lead to
+already explained in <span class='cite'>[<a href='#XBlack'>3</a>]</span>.
+</p><!-- l. 63 --><p class='noindent'>In case of dependence Storey suggested the same approach <span class='cite'>[<a href='#XDependence'>4</a>]</span>. We show, this time only by simulation, that dependence can lead to
 a very high overestimation of false discovery rate.
 </p>
 <p class='noindent'><span class='ptmbi7t-'>Keywords: </span>Multiple testing, Multiple comparisons, False discovery rate
@@ -50,13 +50,13 @@ a very high overestimation of false discovery rate.
 <h3 class='likesectionHead'><a id='x1-1000'></a>Contents</h3>
 <div class='tableofcontents'>
 <span class='sectionToc'>1 <a href='#x1-20001' id='QQ2-1-2'>Introduction</a></span>
-<br /> <span class='subsectionToc'>1.1 <a href='#x1-30001.1' id='QQ2-1-3'>Single-hypothesis testing</a></span>
-<br /> <span class='subsectionToc'>1.2 <a href='#x1-40001.2' id='QQ2-1-4'>Multiple-hypothesis testing</a></span>
-<br /> <span class='subsectionToc'>1.3 <a href='#x1-50001.3' id='QQ2-1-5'>Multiple-testing procedures</a></span>
-<br />  <span class='subsubsectionToc'>1.3.1 <a href='#x1-60001.3.1' id='QQ2-1-6'>Bonferroni correction</a></span>
-<br />  <span class='subsubsectionToc'>1.3.2 <a href='#x1-70001.3.2' id='QQ2-1-7'>Benjamini-Hochberg procedure</a></span>
-<br />  <span class='subsubsectionToc'>1.3.3 <a href='#x1-80001.3.3' id='QQ2-1-8'>Storey’s approach</a></span>
-<br /> <span class='subsectionToc'>1.4 <a href='#x1-90001.4' id='QQ2-1-9'>Overview</a></span>
+<br /> <span class='subsectionToc'>1.1 <a href='#x1-30001.1' id='QQ2-1-3'>Single-hypothesis testing</a></span>
+<br /> <span class='subsectionToc'>1.2 <a href='#x1-40001.2' id='QQ2-1-4'>Multiple-hypothesis testing</a></span>
+<br /> <span class='subsectionToc'>1.3 <a href='#x1-50001.3' id='QQ2-1-5'>Multiple-testing procedures</a></span>
+<br />  <span class='subsubsectionToc'>1.3.1 <a href='#x1-60001.3.1' id='QQ2-1-6'>Bonferroni correction</a></span>
+<br />  <span class='subsubsectionToc'>1.3.2 <a href='#x1-70001.3.2' id='QQ2-1-7'>Benjamini-Hochberg procedure</a></span>
+<br />  <span class='subsubsectionToc'>1.3.3 <a href='#x1-80001.3.3' id='QQ2-1-8'>Storey’s approach</a></span>
+<br /> <span class='subsectionToc'>1.4 <a href='#x1-90001.4' id='QQ2-1-9'>Overview</a></span>
 <br /><span class='sectionToc'>2 <a href='#x1-100002' id='QQ2-1-10'>Derivation of Storey’s estimators for direct approach</a></span>
 <br /><span class='sectionToc'>3 <a href='#x1-110003' id='QQ2-1-11'>Power comparison of Benjamini-Hochberg procedure and Storey’s direct approach</a></span>
 <br /><span class='sectionToc'>4 <a href='#x1-120004' id='QQ2-1-12'>Using Storey’s estimator in Benjamini-Hochberg procedure</a></span>
@@ -82,8 +82,8 @@ define two hypotheses:
 
 
 </p><!-- tex4ht:inline --><!-- l. 79 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'><mtable class='align-star' columnalign='left'>
-                                           <mtr><mtd class='align-odd' columnalign='right'><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn></mrow></msub><mstyle class='text'><mtext>: </mtext></mstyle><mi>𝜃</mi></mtd>                                           <mtd class='align-even'> <mo class='MathClass-rel'>∈</mo> <msub><mrow><mi>Ω</mi></mrow><mrow><mn>0</mn></mrow></msub><mo class='MathClass-punc'>,</mo><mspace width='2em'></mspace></mtd>                                           <mtd class='align-label' columnalign='right'></mtd>                                           <mtd class='align-label'>
-                                           <mspace width='2em'></mspace></mtd></mtr><mtr><mtd class='align-odd' columnalign='right'><msub><mrow><mi>H</mi></mrow><mrow><mn>1</mn></mrow></msub><mstyle class='text'><mtext>: </mtext></mstyle><mi>𝜃</mi></mtd>                                           <mtd class='align-even'> <mo class='MathClass-rel'>∈</mo> <msub><mrow><mi>Ω</mi></mrow><mrow><mn>1</mn></mrow></msub><mo class='MathClass-punc'>.</mo><mspace width='2em'></mspace></mtd>                                           <mtd class='align-label' columnalign='right'></mtd>                                           <mtd class='align-label'>
+                                           <mtr><mtd class='align-odd' columnalign='right'><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn></mrow></msub><mstyle class='text'><mtext>: </mtext></mstyle><mi>𝜃</mi></mtd>                                           <mtd class='align-even'> <mo class='MathClass-rel'>∈</mo> <msub><mrow><mi>Ω</mi></mrow><mrow><mn>0</mn></mrow></msub><mo class='MathClass-punc'>,</mo><mspace width='2em'></mspace></mtd>                                           <mtd class='align-label' columnalign='right'></mtd>                                           <mtd class='align-label'>
+                                           <mspace width='2em'></mspace></mtd></mtr><mtr><mtd class='align-odd' columnalign='right'><msub><mrow><mi>H</mi></mrow><mrow><mn>1</mn></mrow></msub><mstyle class='text'><mtext>: </mtext></mstyle><mi>𝜃</mi></mtd>                                           <mtd class='align-even'> <mo class='MathClass-rel'>∈</mo> <msub><mrow><mi>Ω</mi></mrow><mrow><mn>1</mn></mrow></msub><mo class='MathClass-punc'>.</mo><mspace width='2em'></mspace></mtd>                                           <mtd class='align-label' columnalign='right'></mtd>                                           <mtd class='align-label'>
 <mspace width='2em'></mspace></mtd></mtr></mtable></math>
 <!-- l. 81 --><p class='noindent'>The hypothesis <!-- l. 81 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>H</mi></mrow><mrow><mn>1</mn></mrow></msub></math>
 is the statement that confirms the theory and it is called an <span class='ptmri7t-'>alternative hypothesis</span>. The opposite
@@ -108,7 +108,7 @@ when in fact <!-- l. 83 --><math xmlns='http://www.w3.org/1998/Math/MathML' disp
 The <span class='ptmri7t-'>significance level </span><!-- l. 83 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>α</mi></math>
 is the upper bound on the probability of type I error: </p><table class='equation'><tr><td> <a id='x1-3001r1'></a>
 <!-- l. 84 --><math xmlns='http://www.w3.org/1998/Math/MathML' class='equation' display='block'>
-                                  <mstyle class='text'><mtext>Pr</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><mi>T</mi> <mo class='MathClass-rel'>∈</mo> <mi>Γ</mi><mo class='MathClass-rel'>∣</mo><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn></mrow></msub><mstyle class='text'><mtext> is in fact true </mtext></mstyle></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>≤</mo> <mi>α</mi><mo class='MathClass-punc'>.</mo>
+                                  <mstyle class='text'><mtext>Pr</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><mi>T</mi> <mo class='MathClass-rel'>∈</mo> <mi>Γ</mi><mo class='MathClass-rel'>∣</mo><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn></mrow></msub><mstyle class='text'><mtext> is in fact true </mtext></mstyle></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>≤</mo> <mi>α</mi><mo class='MathClass-punc'>.</mo>
 </math></td><td class='eq-no'>(1)</td></tr></table>
 <!-- l. 88 --><p class='noindent'>The <span class='ptmri7t-'>detection power </span><!-- l. 88 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>π</mi></math> of a test
 is the probability of rejecting <!-- l. 88 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn></mrow></msub></math>
@@ -118,13 +118,13 @@ when in fact <!-- l. 88 --><math xmlns='http://www.w3.org/1998/Math/MathML' disp
 practice is to choose the value of <!-- l. 88 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>α</mi></math>,
 say <!-- l. 88 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mn>0</mn><mo class='MathClass-punc'>.</mo><mn>01</mn></math>, and then find
 the rejection region <!-- l. 88 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>Γ</mi></mrow><mrow><mi>α</mi></mrow></msub></math>
-that maximizes the detection power and satisfies Eq. <a href='#x1-3001r1'>1<!-- tex4ht:ref: eq: condition1  --></a>, that probability of type I error is at most
+that maximizes the detection power and satisfies Eq. <a href='#x1-3001r1'>1<!-- tex4ht:ref: eq: condition1  --></a>, that probability of type I error is at most
 <!-- l. 88 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>α</mi></math>. The detection
 power <!-- l. 88 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>π</mi></math> is a function
 of rejection region <!-- l. 88 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>Γ</mi></mrow><mrow><mi>α</mi></mrow></msub></math>: </p><table class='equation'><tr><td>
 <a id='x1-3002r2'></a>
 <!-- l. 89 --><math xmlns='http://www.w3.org/1998/Math/MathML' class='equation' display='block'>
-                               <mi>π</mi><mrow><mo class='MathClass-open'>(</mo><mrow><msub><mrow><mi>Γ</mi></mrow><mrow><mi>α</mi></mrow></msub></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <mstyle class='text'><mtext>Pr</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><mi>T</mi> <mo class='MathClass-rel'>∈</mo> <msub><mrow><mi>Γ</mi></mrow><mrow><mi>α</mi></mrow></msub><mo class='MathClass-rel'>∣</mo><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn></mrow></msub><mstyle class='text'><mtext> is in fact false </mtext></mstyle></mrow><mo class='MathClass-close'>)</mo></mrow><mo class='MathClass-punc'>.</mo>
+                               <mi>π</mi><mrow><mo class='MathClass-open'>(</mo><mrow><msub><mrow><mi>Γ</mi></mrow><mrow><mi>α</mi></mrow></msub></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <mstyle class='text'><mtext>Pr</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><mi>T</mi> <mo class='MathClass-rel'>∈</mo> <msub><mrow><mi>Γ</mi></mrow><mrow><mi>α</mi></mrow></msub><mo class='MathClass-rel'>∣</mo><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn></mrow></msub><mstyle class='text'><mtext> is in fact false </mtext></mstyle></mrow><mo class='MathClass-close'>)</mo></mrow><mo class='MathClass-punc'>.</mo>
 </math></td><td class='eq-no'>(2)</td></tr></table>
 <!-- l. 93 --><p class='noindent'>Typically, rejection regions <!-- l. 93 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>Γ</mi></mrow><mrow><mi>α</mi></mrow></msub></math>
 and <!-- l. 93 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>Γ</mi></mrow><mrow><msup><mrow><mi>α</mi></mrow><mrow><mi>′</mi></mrow></msup></mrow></msub></math> for different
@@ -156,8 +156,8 @@ given in the form of p-values <!-- l. 109 --><math xmlns='http://www.w3.org/1998
 Let <!-- l. 109 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>H</mi></mrow><mrow><mn>1</mn></mrow></msub><mo class='MathClass-punc'>,</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>,</mo><msub><mrow><mi>H</mi></mrow><mrow><mi>m</mi></mrow></msub></math> be
 random variables, where </p><table class='equation-star'><tr><td>
 <!-- l. 110 --><math xmlns='http://www.w3.org/1998/Math/MathML' class='equation' display='block'><msub><mrow>
-<mi>H</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo class='MathClass-rel'>=</mo> <mrow class='cases'> <mfenced close='' separators='' open='{'><mrow> <mtable equalcolumns='false' style='' align='axis' equalrows='false' class='array' columnlines='none'> <mtr><mtd class='array' columnalign='left'><mn>0</mn><mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext><mstyle class='math'><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn><mi>i</mi></mrow></msub></mstyle><mtext> is in fact true,</mtext></mstyle></mtd>
-</mtr>  <mtr><mtd class='array' columnalign='left'><mn>1</mn><mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext><mstyle class='math'><msub><mrow><mi>H</mi></mrow><mrow><mn>1</mn><mi>i</mi></mrow></msub></mstyle><mtext> is in fact true.</mtext></mstyle></mtd></mtr><!-- @{}l@{\quad }l@{} --></mtable>                                                                                                                                                                  </mrow></mfenced> </mrow>
+<mi>H</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo class='MathClass-rel'>=</mo> <mrow class='cases'> <mfenced close='' separators='' open='{'><mrow> <mtable equalcolumns='false' style='' align='axis' equalrows='false' class='array' columnlines='none'> <mtr><mtd class='array' columnalign='left'><mn>0</mn><mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext><mstyle class='math'><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn><mi>i</mi></mrow></msub></mstyle><mtext> is in fact true,</mtext></mstyle></mtd>
+</mtr>  <mtr><mtd class='array' columnalign='left'><mn>1</mn><mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext><mstyle class='math'><msub><mrow><mi>H</mi></mrow><mrow><mn>1</mn><mi>i</mi></mrow></msub></mstyle><mtext> is in fact true.</mtext></mstyle></mtd></mtr><!-- @{}l@{\quad }l@{} --></mtable>                                                                                                                                                                  </mrow></mfenced> </mrow>
 </math></td></tr></table>
 <!-- l. 117 --><p class='noindent'>A <span class='ptmri7t-'>multiple-testing procedure </span>is a decision function <!-- l. 117 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>ϕ</mi></math>,
 which for a given p-values <!-- l. 117 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>p</mi></mrow><mrow><mn>1</mn></mrow></msub><mo class='MathClass-punc'>,</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>,</mo><msub><mrow><mi>p</mi></mrow><mrow><mi>m</mi></mrow></msub></math>
@@ -169,7 +169,7 @@ assigns decision values <!-- l. 117 --><math xmlns='http://www.w3.org/1998/Math/
 <!-- l. 121 --><p class='noindent'>where <!-- l. 121 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>D</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo class='MathClass-rel'>=</mo> <mn>1</mn></math> if hypothesis
 <!-- l. 121 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn><mi>i</mi></mrow></msub></math> is rejected and
 <!-- l. 121 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>D</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo class='MathClass-rel'>=</mo> <mn>0</mn></math> otherwise, for each
-<!-- l. 121 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>i</mi> <mo class='MathClass-rel'>=</mo> <mn>1</mn><mo class='MathClass-punc'>,</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>,</mo><mi>m</mi></math>. Table <a href='#x1-4002r1'>1<!-- tex4ht:ref: tab: summary  --></a> describes the possible
+<!-- l. 121 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>i</mi> <mo class='MathClass-rel'>=</mo> <mn>1</mn><mo class='MathClass-punc'>,</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>,</mo><mi>m</mi></math>. Table <a href='#x1-4002r1'>1<!-- tex4ht:ref: tab: summary  --></a> describes the possible
 outcomes from <!-- l. 121 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>m</mi></math> hypothesis tests, where
 <!-- l. 121 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>I</mi></mrow><mrow><mn>0</mn></mrow></msub> <mo class='MathClass-rel'>⊂</mo><mrow><mo class='MathClass-open'>{</mo><mrow><mn>1</mn><mo class='MathClass-punc'>,</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>,</mo><mi>m</mi></mrow><mo class='MathClass-close'>}</mo></mrow></math> is the index of true null hypotheses,
 <!-- l. 121 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>m</mi></mrow><mrow><mn>0</mn></mrow></msub> <mo class='MathClass-rel'>=</mo> <mo class='MathClass-rel'>|</mo><msub><mrow><mi>I</mi></mrow><mrow><mn>0</mn></mrow></msub><mo class='MathClass-rel'>|</mo></math> is the number of true null hypotheses,
@@ -188,12 +188,12 @@ is the number of all rejected null hypotheses, etc.
 
 
 <div class='tabular'> <table class='tabular' id='TBL-4'><colgroup id='TBL-4-1g'><col id='TBL-4-1' /><col id='TBL-4-2' /><col id='TBL-4-3' /><col id='TBL-4-4' /></colgroup><tr class='hline'><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr class='hline'><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-4-1-'><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-1-1'>                                                                                  </td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-1-2'>                                      Accepted                                                                                            </td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-1-3'>                                      Rejected                                                                                            </td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-1-4'>                                        Total                                                                                               </td>
-</tr><tr class='hline'><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr style='font-size:2.24998pt' class='vspace'><td> </td><td> </td><td> </td><td> </td></tr><tr style='vertical-align:baseline;' id='TBL-4-2-'><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-2-1'><!-- l. 129 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>I</mi></mrow><mrow><mn>0</mn></mrow></msub></math></td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-2-2'><!-- l. 129 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>U</mi></math></td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-2-3'><!-- l. 129 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>V</mi> </math></td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-2-4'><!-- l. 129 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>m</mi></mrow><mrow><mn>0</mn></mrow></msub></math></td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr style='font-size:2.24998pt' class='vspace'><td> </td><td> </td><td> </td><td> </td></tr><tr style='vertical-align:baseline;' id='TBL-4-2-'><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-2-1'><!-- l. 129 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>I</mi></mrow><mrow><mn>0</mn></mrow></msub></math></td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-2-2'><!-- l. 129 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>U</mi></math></td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-2-3'><!-- l. 129 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>V</mi> </math></td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-2-4'><!-- l. 129 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>m</mi></mrow><mrow><mn>0</mn></mrow></msub></math></td>
 </tr><tr style='vertical-align:baseline;' id='TBL-4-3-'><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-3-1'><!-- l. 130 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mrow><mo class='MathClass-open'>{</mo><mrow><mn>1</mn><mo class='MathClass-punc'>,</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>,</mo><mi>m</mi></mrow><mo class='MathClass-close'>}</mo></mrow><mo class='MathClass-bin'>∖</mo> <msub><mrow><mi>I</mi></mrow><mrow><mn>0</mn></mrow></msub></math></td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-3-2'><!-- l. 130 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>T</mi></math></td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-3-3'><!-- l. 130 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>S</mi></math></td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-3-4'><!-- l. 130 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>m</mi> <mo class='MathClass-bin'>−</mo> <msub><mrow><mi>m</mi></mrow><mrow><mn>0</mn></mrow></msub></math></td>
 </tr><tr style='vertical-align:baseline;' id='TBL-4-4-'><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-4-1'>                                        Total                                                                                               </td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-4-2'><!-- l. 131 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>W</mi></math></td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-4-3'><!-- l. 131 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>R</mi></math></td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-4-4-4'><!-- l. 131 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>m</mi></math></td></tr></table>
 </div>
 <a id='x1-4003'></a>
-<figcaption class='caption'><span class='id'>Table 1: </span><span class='content'>All                                                possible                                                outcomes                                                from
+<figcaption class='caption'><span class='id'>Table 1: </span><span class='content'>All                                                possible                                                outcomes                                                from
 <!-- l. 133 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>m</mi></math>
 hypothesis tests.</span></figcaption><!-- tex4ht:label?: x1-4002r1  -->
 
@@ -209,12 +209,12 @@ for some threshold <!-- l. 138 --><math xmlns='http://www.w3.org/1998/Math/MathM
 </math></td><td class='eq-no'>(6)</td></tr></table>
 <!-- l. 142 --><p class='noindent'>then the random variables <!-- l. 142 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>U</mi><mo class='MathClass-punc'>,</mo><mi>V</mi><mo class='MathClass-punc'>,</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>,</mo><mi>R</mi></math>
 depend only on this threshold <!-- l. 142 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>γ</mi></math>,
-e.g. <!-- l. 142 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>R</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>γ</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo><msubsup><mrow><mi class='MathClass-op'> ∑</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo>
+e.g. <!-- l. 142 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>R</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>γ</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo><msubsup><mrow><mi class='MathClass-op'> ∑</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo>
   <!-- nolimits --></mrow><mrow><mi>i</mi><mo class='MathClass-rel'>=</mo><mn>1</mn></mrow><mrow><mi>m</mi></mrow></msubsup><mi>1</mi><mrow><mo class='MathClass-open'>(</mo><mrow><msub><mrow><mi>p</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo class='MathClass-rel'>≤</mo> <mi>γ</mi></mrow><mo class='MathClass-close'>)</mo></mrow></math>.
 </p><!-- l. 144 --><p class='noindent'>Good scientific practice requires the specification of certain type I error measure control to be done prior to the data analysis. The
 problem is to find a multiple-testing procedure which maximizes detection power and satisfies certain conditions involving type I error
-measures. A problem of this type is called a <span class='ptmri7t-'>multiple-testing problem</span>. It is described in <span class='cite'>[<a href='#XRHeller'>5</a>]</span> or in the context of assessing the feature
-significance in <span class='cite'>[<a href='#XESL'>6</a>]</span>.
+measures. A problem of this type is called a <span class='ptmri7t-'>multiple-testing problem</span>. It is described in <span class='cite'>[<a href='#XRHeller'>5</a>]</span> or in the context of assessing the feature
+significance in <span class='cite'>[<a href='#XESL'>6</a>]</span>.
 </p><!-- l. 146 --><p class='noindent'>We say that some multiple-testing procedure <!-- l. 146 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>ϕ</mi></math>
 has <span class='ptmri7t-'>strong level </span><!-- l. 146 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>α</mi></math>
 <span class='ptmri7t-'>control </span>of some error measure EM, if it satisfies the condition: </p><table class='equation'><tr><td> <a id='x1-4005r7'></a>
@@ -319,7 +319,7 @@ set of hypotheses rejected by <!-- l. 186 --><math xmlns='http://www.w3.org/1998
 <!-- l. 199 --><p class='noindent'><span class='head'>
 <span class='ptmri7t-'>Proof.</span> </span>Simply replace <!-- l. 199 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>m</mi></math>
 with <!-- l. 199 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mi>m</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub></math> in
-the proof of Proposition <a href='#x1-6002r1'>1<!-- tex4ht:ref: prop: Bonf  --></a>: </p><table class='equation'><tr><td> <a id='x1-6008r14'></a>
+the proof of Proposition <a href='#x1-6002r1'>1<!-- tex4ht:ref: prop: Bonf  --></a>: </p><table class='equation'><tr><td> <a id='x1-6008r14'></a>
 
 
 <!-- l. 200 --><math xmlns='http://www.w3.org/1998/Math/MathML' class='equation' display='block'><msub><mrow>
@@ -356,7 +356,7 @@ a greater detection power, but it also affects type I error measure.
 </p>
 <h5 class='subsubsectionHead'><span class='titlemark'>1.3.2    </span> <a id='x1-70001.3.2'></a>Benjamini-Hochberg procedure</h5>
 <!-- l. 218 --><p class='noindent'>Another way to improve the detection power is by using a more appropriate type I error measure. Benjamini and
-Hochberg <span class='cite'>[<a href='#XBH'>2</a>]</span> introduced a new type I error measure called <span class='ptmri7t-'>false discovery rate (FDR)</span>. This is the expected
+Hochberg <span class='cite'>[<a href='#XBH'>2</a>]</span> introduced a new type I error measure called <span class='ptmri7t-'>false discovery rate (FDR)</span>. This is the expected
 proportion of false positive results among all the rejected hypotheses when using some multiple-testing procedure
 <!-- l. 218 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>ϕ</mi></math>:
 </p>
@@ -404,7 +404,7 @@ calculate: </p><table class='equation'><tr><td> <a id='x1-7005r20'></a>
 </math></td><td class='eq-no'>(20)</td></tr></table>
 <!-- l. 244 --><p class='noindent'>and reject all null hypotheses corresponding to <!-- l. 244 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>p</mi></mrow><mrow><mrow><mo class='MathClass-open'>(</mo><mrow><mi>i</mi></mrow><mo class='MathClass-close'>)</mo></mrow></mrow></msub></math>
 for <!-- l. 244 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>i</mi> <mo class='MathClass-rel'>≤</mo><mover accent='false'><mrow><mi>k</mi></mrow><mo accent='true'>̂</mo></mover></math>.
-</p><!-- l. 246 --><p class='noindent'>For this procedure Benjamini and Hochberg <span class='cite'>[<a href='#XBH'>2</a>]</span> showed the following. If test statistics (in our case
+</p><!-- l. 246 --><p class='noindent'>For this procedure Benjamini and Hochberg <span class='cite'>[<a href='#XBH'>2</a>]</span> showed the following. If test statistics (in our case
 <!-- l. 246 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>p</mi></math>-values)
 are independent and in some cases of dependence, regardless of the distribution of the test statistics (in our case distribution of
 <!-- l. 246 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>p</mi></math>-values) when
@@ -425,7 +425,7 @@ the proportion of true null hypotheses: </p><table class='equation'><tr><td> <a 
 <!-- l. 256 --><p class='noindent'>
 </p>
 <h5 class='subsubsectionHead'><span class='titlemark'>1.3.3    </span> <a id='x1-80001.3.3'></a>Storey’s approach</h5>
-<!-- l. 258 --><p class='noindent'>Storey suggested <span class='cite'>[<a href='#XStorey'>1</a>]</span> a modified version of FDR error measure called the <span class='ptmri7t-'>positive false discovery rate (pFDR)</span>: </p><table class='equation'><tr><td> <a id='x1-8001r23'></a>
+<!-- l. 258 --><p class='noindent'>Storey suggested <span class='cite'>[<a href='#XStorey'>1</a>]</span> a modified version of FDR error measure called the <span class='ptmri7t-'>positive false discovery rate (pFDR)</span>: </p><table class='equation'><tr><td> <a id='x1-8001r23'></a>
 <!-- l. 259 --><math xmlns='http://www.w3.org/1998/Math/MathML' class='equation' display='block'><msub><mrow>
                                       <mstyle class='text'><mtext>pFDR</mtext></mstyle></mrow><mrow><mi>ϕ</mi></mrow></msub> <mo class='MathClass-rel'>=</mo> <mstyle class='text'><mtext>E</mtext></mstyle> <mfenced close=')' separators='' open='('><mrow><mfrac><mrow><mi>V</mi> </mrow>
 <mrow><mi>R</mi></mrow></mfrac><mo class='MathClass-rel'>∣</mo><mi>R</mi> <mo class='MathClass-rel'>&gt;</mo> <mn>0</mn></mrow></mfenced><mo class='MathClass-punc'>,</mo>
@@ -442,8 +442,8 @@ FDR: </p><table class='equation'><tr><td> <a id='x1-8002r24'></a>
 Therefore we might achieve improvement in detection power by controlling error measure pFDR instead of FDR. In case when
 <!-- l. 266 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mstyle class='text'><mtext>Pr</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><mi>R</mi> <mo class='MathClass-rel'>&gt;</mo> <mn>0</mn></mrow><mo class='MathClass-close'>)</mo></mrow></math> is much
 less than 1, FDR error measure might be misleading and Storey’s pFDR error measure is more appropriate. pFDR error measure also
-has a clean Bayesian interpretation, which we show in Chapter <a href='#x1-100002'>2<!-- tex4ht:ref: sec: estimates  --></a> and it is described in <span class='cite'>[<a href='#XBayesian'>7</a>]</span>.
-</p><!-- l. 268 --><p class='noindent'>Storey suggested in <span class='cite'>[<a href='#XStorey'>1</a>]</span> a more direct approach to multiple-testing problem. Rather than fixing level
+has a clean Bayesian interpretation, which we show in Chapter <a href='#x1-100002'>2<!-- tex4ht:ref: sec: estimates  --></a> and it is described in <span class='cite'>[<a href='#XBayesian'>7</a>]</span>.
+</p><!-- l. 268 --><p class='noindent'>Storey suggested in <span class='cite'>[<a href='#XStorey'>1</a>]</span> a more direct approach to multiple-testing problem. Rather than fixing level
 <!-- l. 268 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>α</mi></math> control of some error measure and
 then estimating the rejection region (<!-- l. 268 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mover accent='true'><mrow><mi>k</mi></mrow><mo accent='true'>̂</mo></mover></math>
 in BH procedure) satisfying level <!-- l. 268 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>α</mi></math>
@@ -452,8 +452,8 @@ for BH procedure), we instead fix the rejection region and then estimate some er
 </p><!-- l. 270 --><p class='noindent'>Important part of Storey’s direct approach is Storey’s method of estimating the proportion of true null hypotheses
 <!-- l. 270 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub> <mo class='MathClass-rel'>=</mo> <msub><mrow><mi>m</mi></mrow><mrow><mn>0</mn></mrow></msub><mo class='MathClass-bin'>∕</mo><mi>m</mi></math>. For a good estimator of (p)FDR, we
 require a good estimator of <!-- l. 270 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math>. This
-problem of estimating <!-- l. 270 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math> is described in <span class='cite'>[<a href='#XProportion1'>8</a>]</span>
-and <span class='cite'>[<a href='#XProportion2'>9</a>]</span>. Storey’s method of estimating <!-- l. 270 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math>
+problem of estimating <!-- l. 270 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math> is described in <span class='cite'>[<a href='#XProportion1'>8</a>]</span>
+and <span class='cite'>[<a href='#XProportion2'>9</a>]</span>. Storey’s method of estimating <!-- l. 270 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math>
 is based on the following idea. Since the <!-- l. 270 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>m</mi></math>
 observed p-values contain information about the proportion of true null hypotheses
 <!-- l. 270 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math>, Storey introduces a
@@ -478,20 +478,20 @@ that we can estimate pFDR instead of FDR.
 </p><!-- l. 279 --><p class='noindent'>
 </p>
 <h4 class='subsectionHead'><span class='titlemark'>1.4    </span> <a id='x1-90001.4'></a>Overview</h4>
-<!-- l. 280 --><p class='noindent'>After the formal derivation of Storey’s estimators for direct approach in Section <a href='#x1-100002'>2<!-- tex4ht:ref: sec: estimates  --></a>, we present results in
-Sections <a href='#x1-110003'>3<!-- tex4ht:ref: sec: 1st  --></a> and <a href='#x1-120004'>4<!-- tex4ht:ref: sec: 2nd  --></a> of detection power comparison of BH procedure and direct approach using Storey’s
-estimators. We formally justify and generalize this results. In Section <a href='#x1-130005'>5<!-- tex4ht:ref: sec: properties  --></a> we show that Storey’s estimator
+<!-- l. 280 --><p class='noindent'>After the formal derivation of Storey’s estimators for direct approach in Section <a href='#x1-100002'>2<!-- tex4ht:ref: sec: estimates  --></a>, we present results in
+Sections <a href='#x1-110003'>3<!-- tex4ht:ref: sec: 1st  --></a> and <a href='#x1-120004'>4<!-- tex4ht:ref: sec: 2nd  --></a> of detection power comparison of BH procedure and direct approach using Storey’s
+estimators. We formally justify and generalize this results. In Section <a href='#x1-130005'>5<!-- tex4ht:ref: sec: properties  --></a> we show that Storey’s estimator
 <!-- l. 280 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub></math> can be very upward biased when
 distance between distributions under <!-- l. 280 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn></mrow></msub></math>
 and <!-- l. 280 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>H</mi></mrow><mrow><mn>1</mn></mrow></msub></math> is
-small. It follows from Section <a href='#x1-100002'>2<!-- tex4ht:ref: sec: estimates  --></a> that the same bias is present in the estimation of type I error measure. Lastly in Section <a href='#x1-150007'>7<!-- tex4ht:ref: sec: dependence  --></a>, we show
+small. It follows from Section <a href='#x1-100002'>2<!-- tex4ht:ref: sec: estimates  --></a> that the same bias is present in the estimation of type I error measure. Lastly in Section <a href='#x1-150007'>7<!-- tex4ht:ref: sec: dependence  --></a>, we show
 with simulation that dependence can lead to very high overestimation of FDR.
 </p><!-- l. 283 --><p class='noindent'>
 </p>
 <h3 class='sectionHead'><span class='titlemark'>2    </span> <a id='x1-100002'></a>Derivation of Storey’s estimators for direct approach</h3>
-<!-- l. 285 --><p class='noindent'>Direct multiple-testing procedure using Storey’s estimates is based on the following Theorem <a href='#x1-10002r4'>4<!-- tex4ht:ref: thm: pFDR  --></a>
+<!-- l. 285 --><p class='noindent'>Direct multiple-testing procedure using Storey’s estimates is based on the following Theorem <a href='#x1-10002r4'>4<!-- tex4ht:ref: thm: pFDR  --></a>
 which is valid under the following assumptions and the assumption that rejection region
-<!-- l. 285 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>Γ</mi></mrow><mrow><mi>α</mi></mrow></msub></math> satisfies the nesting property Eq. <a href='#x1-3003r3'>3<!-- tex4ht:ref: eq: nesting  --></a>.
+<!-- l. 285 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>Γ</mi></mrow><mrow><mi>α</mi></mrow></msub></math> satisfies the nesting property Eq. <a href='#x1-3003r3'>3<!-- tex4ht:ref: eq: nesting  --></a>.
 Consider simultaneous testing of <!-- l. 285 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>m</mi></math>
 null hypotheses, where for <!-- l. 285 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>i</mi> <mo class='MathClass-rel'>=</mo> <mn>1</mn><mo class='MathClass-punc'>,</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>,</mo><mi>m</mi></math>,
 we test <!-- l. 285 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn><mi>i</mi></mrow></msub></math> versus
@@ -555,7 +555,7 @@ with expected value: </p><table class='equation'><tr><td> <a id='x1-10007r31'></
 <!-- l. 309 --><math xmlns='http://www.w3.org/1998/Math/MathML' class='equation' display='block'>
                               <mstyle class='text'><mtext>E</mtext></mstyle> <mfenced close=']' separators='' open='['><mrow><mi>V</mi> <mrow><mo class='MathClass-open'>(</mo><mrow><mi>γ</mi></mrow><mo class='MathClass-close'>)</mo></mrow><mo class='MathClass-rel'>∣</mo><mi>R</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>γ</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <mi>k</mi></mrow></mfenced> <mo class='MathClass-rel'>=</mo> <mi>k</mi> <mo class='MathClass-bin'>⋅</mo><mstyle class='text'><mtext>Pr</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><mi>H</mi> <mo class='MathClass-rel'>=</mo> <mn>0</mn><mo class='MathClass-rel'>∣</mo><mi>P</mi> <mo class='MathClass-rel'>≤</mo> <mi>γ</mi></mrow><mo class='MathClass-close'>)</mo></mrow><mo class='MathClass-punc'>.</mo>
 </math></td><td class='eq-no'>(31)</td></tr></table>
-<!-- l. 312 --><p class='noindent'>Combining <a href='#x1-10006r30'>30<!-- tex4ht:ref: eq: pFDR  --></a> and <a href='#x1-10007r31'>31<!-- tex4ht:ref: eq: E  --></a> we get:
+<!-- l. 312 --><p class='noindent'>Combining <a href='#x1-10006r30'>30<!-- tex4ht:ref: eq: pFDR  --></a> and <a href='#x1-10007r31'>31<!-- tex4ht:ref: eq: E  --></a> we get:
 </p><!-- tex4ht:inline --><!-- l. 319 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'><mtable class='align' columnalign='left'>
                     <mtr><mtd class='align-odd' columnalign='right'><mstyle class='text'><mtext>pFDR</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><mi>γ</mi></mrow><mo class='MathClass-close'>)</mo></mrow></mtd>                    <mtd class='align-even'> <mo class='MathClass-rel'>=</mo><munderover accent='false' accentunder='false'><mrow><mo> ∑</mo>
   </mrow><mrow><mi>k</mi><mo class='MathClass-rel'>=</mo><mn>1</mn></mrow><mrow><mi>m</mi></mrow></munderover><mfrac><mrow><mn>1</mn></mrow>
@@ -571,14 +571,14 @@ with expected value: </p><table class='equation'><tr><td> <a id='x1-10007r31'></
 </div>
 <!-- l. 322 --><p class='noindent'>For large <!-- l. 322 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>m</mi></math> it doesn’t make much
 difference whether we regard the <!-- l. 322 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>H</mi></mrow><mrow><mi>i</mi></mrow></msub></math>
-as being random due to the Strong law of large numbers. Using Theorem <a href='#x1-10002r4'>4<!-- tex4ht:ref: thm: pFDR  --></a> and Bayes’ theorem we can derive
+as being random due to the Strong law of large numbers. Using Theorem <a href='#x1-10002r4'>4<!-- tex4ht:ref: thm: pFDR  --></a> and Bayes’ theorem we can derive
 </p><!-- tex4ht:inline --><!-- l. 327 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'><mtable class='align' columnalign='left'>
                               <mtr><mtd class='align-odd' columnalign='right'><mstyle class='text'><mtext>pFDR</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><mi>γ</mi></mrow><mo class='MathClass-close'>)</mo></mrow></mtd>                              <mtd class='align-even'> <mo class='MathClass-rel'>=</mo> <mstyle class='text'><mtext>Pr</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><mi>H</mi> <mo class='MathClass-rel'>=</mo> <mn>0</mn><mo class='MathClass-rel'>∣</mo><mi>P</mi> <mo class='MathClass-rel'>≤</mo> <mi>γ</mi></mrow><mo class='MathClass-close'>)</mo></mrow><mspace width='2em'></mspace></mtd>                                                                      <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-10012r36'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(36)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
                               </mtd></mtr><mtr><mtd class='align-odd' columnalign='right'></mtd>                                     <mtd class='align-even'> <mo class='MathClass-rel'>=</mo> <mfrac><mrow><mstyle class='text'><mtext>Pr</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><mi>H</mi> <mo class='MathClass-rel'>=</mo> <mn>0</mn></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-bin'>⋅</mo><mstyle class='text'><mtext>Pr</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><mi>P</mi> <mo class='MathClass-rel'>≤</mo> <mi>γ</mi><mo class='MathClass-rel'>∣</mo><mi>H</mi> <mo class='MathClass-rel'>=</mo> <mn>0</mn></mrow><mo class='MathClass-close'>)</mo></mrow></mrow>
              <mrow><mstyle class='text'><mtext>Pr</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><mi>P</mi> <mo class='MathClass-rel'>≤</mo> <mi>γ</mi></mrow><mo class='MathClass-close'>)</mo></mrow></mrow></mfrac>             <mspace width='2em'></mspace></mtd>                                                            <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-10013r37'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(37)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
 </mtd></mtr></mtable></math>
 <!-- l. 328 --><p class='noindent'>Using notation <!-- l. 328 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub> <mo class='MathClass-rel'>=</mo> <mstyle class='text'><mtext>Pr</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><mi>H</mi> <mo class='MathClass-rel'>=</mo> <mn>0</mn></mrow><mo class='MathClass-close'>)</mo></mrow></math> and the nesting
-property Eq. <a href='#x1-3003r3'>3<!-- tex4ht:ref: eq: nesting  --></a> it follows that <!-- l. 328 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>P</mi></math>
+property Eq. <a href='#x1-3003r3'>3<!-- tex4ht:ref: eq: nesting  --></a> it follows that <!-- l. 328 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>P</mi></math>
 is uniformly distributed on <!-- l. 328 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mrow><mo class='MathClass-open'>(</mo><mrow><mn>0</mn><mo class='MathClass-punc'>,</mo><mn>1</mn></mrow><mo class='MathClass-close'>)</mo></mrow></math>
 when <!-- l. 328 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn><mi>i</mi></mrow></msub></math> is in fact
 true for each <!-- l. 328 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>i</mi> <mo class='MathClass-rel'>=</mo> <mn>1</mn><mo class='MathClass-punc'>,</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>,</mo><mi>m</mi></math>
@@ -643,7 +643,7 @@ we get an estimate of FDR as </p><table class='equation'><tr><td> <a id='x1-1002
 </p>
 <h3 class='sectionHead'><span class='titlemark'>3    </span> <a id='x1-110003'></a>Power comparison of Benjamini-Hochberg procedure and Storey’s direct approach</h3>
 <!-- l. 367 --><p class='noindent'>Let BH stand for Benjamini-Hochberg multiple-testing procedure and let ST stand for direct approach using Storey’s estimates
-described in Section <a href='#x1-100002'>2<!-- tex4ht:ref: sec: estimates  --></a>.
+described in Section <a href='#x1-100002'>2<!-- tex4ht:ref: sec: estimates  --></a>.
 </p>
 <div class='newtheorem'>
 <!-- l. 369 --><p class='noindent'><span class='head'>
@@ -695,11 +695,11 @@ follows that: </p><table class='equation'><tr><td> <a id='x1-11006r49'></a>
 </div>
 <!-- l. 390 --><p class='noindent'>From this proof we can see that increase in detection power of Storey’s direct approach over detection power of BH procedure depends on
 <!-- l. 390 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math> and at the same time on
-Storey’s estimator <!-- l. 390 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub></math>, i.e. even if
+Storey’s estimator <!-- l. 390 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub></math>, i.e. even if
 <!-- l. 390 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math> is close to 0, there will be no
 improvement in detection power, if <!-- l. 390 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mover accent='false'><mrow><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></mrow><mo accent='true'>̂</mo></mover></math>
 is close to 1.
-</p><!-- l. 392 --><p class='noindent'>We replicate the simulation study in <span class='cite'>[<a href='#XStorey'>1</a>]</span> to compare detection power of BH procedure with detection power of direct approach using
+</p><!-- l. 392 --><p class='noindent'>We replicate the simulation study in <span class='cite'>[<a href='#XStorey'>1</a>]</span> to compare detection power of BH procedure with detection power of direct approach using
 Storey’s estimates. We fix rejection region and tuning parameter in the following way. </p>
      <ul class='itemize1'>
      <li class='itemize'>Rejection region <!-- l. 394 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>Γ</mi> <mo class='MathClass-rel'>=</mo> <mrow><mo class='MathClass-open'>[</mo><mrow><mn>0</mn><mo class='MathClass-punc'>,</mo><mn>0</mn><mo class='MathClass-punc'>.</mo><mn>01</mn></mrow><mo class='MathClass-close'>]</mo></mrow></math>
@@ -756,7 +756,7 @@ close to being equal. In our simulation we rejected at least one null hypotheses
 (<!-- l. 419 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>R</mi> <mo class='MathClass-rel'>&gt;</mo> <mn>0</mn></math>), so
 estimate <!-- l. 419 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mstyle class='text'><mtext>Pr</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><mi>R</mi> <mo class='MathClass-rel'>&gt;</mo> <mn>0</mn></mrow><mo class='MathClass-close'>)</mo></mrow></math>
 was 1 and we only report FDR.
-</p><!-- l. 421 --><p class='noindent'>Table <a href='#x1-11011r2'>2<!-- tex4ht:ref: tab: power  --></a> summarizes 1000 simulations with values almost identical to Table in <span class='cite'>[<a href='#XStorey'>1</a>]</span>. We see that Storey’s estimates are very close to
+</p><!-- l. 421 --><p class='noindent'>Table <a href='#x1-11011r2'>2<!-- tex4ht:ref: tab: power  --></a> summarizes 1000 simulations with values almost identical to Table in <span class='cite'>[<a href='#XStorey'>1</a>]</span>. We see that Storey’s estimates are very close to
 their true values. Estimated expected value of Storey’s estimate: </p><table class='equation'><tr><td> <a id='x1-11010r53'></a>
 <!-- l. 422 --><math xmlns='http://www.w3.org/1998/Math/MathML' class='equation' display='block'>
                                            <mstyle class='text'><mtext>E</mtext></mstyle> <mfenced close=')' separators='' open='('><mrow><msub><mrow><mover accent='false'><mrow><mstyle class='text'><mtext>FDR</mtext></mstyle></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mstyle class='text'><mtext>ST</mtext></mstyle></mrow></msub></mrow></mfenced>
@@ -778,7 +778,7 @@ their true values. Estimated expected value of Storey’s estimate: </p><table c
 </tr><tr class='hline'><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr></table>
 </div>
 <a id='x1-11012'></a>
-<figcaption class='caption'><span class='id'>Table 2: </span><span class='content'>Average detection power comparison of BH procedure and direct approach.</span></figcaption><!-- tex4ht:label?: x1-11011r3  -->
+<figcaption class='caption'><span class='id'>Table 2: </span><span class='content'>Average detection power comparison of BH procedure and direct approach.</span></figcaption><!-- tex4ht:label?: x1-11011r3  -->
 
 
 </figure>
@@ -798,7 +798,7 @@ when using Benjamini-Hochberg procedure is very conservative: </p><table class='
 </math></td><td class='eq-no'>(55)</td></tr></table>
 <!-- l. 454 --><p class='noindent'>in all the cases of <!-- l. 454 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub> <mo class='MathClass-rel'>=</mo> <mn>0</mn><mo class='MathClass-punc'>.</mo><mn>1</mn><mo class='MathClass-punc'>,</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>.</mo><mo class='MathClass-punc'>,</mo><mn>0</mn><mo class='MathClass-punc'>.</mo><mn>9</mn></math>. Actual FDR for BH
 procedure is a lot less than control <!-- l. 454 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mstyle class='text'><mtext>FDR</mtext></mstyle></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mstyle class='text'><mtext>ST</mtext></mstyle></mrow></msub></math>.
-In Figure <a href='#x1-11015r1'>1<!-- tex4ht:ref: fig: power  --></a>, we see that for <!-- l. 454 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math>
+In Figure <a href='#x1-11015r1'>1<!-- tex4ht:ref: fig: power  --></a>, we see that for <!-- l. 454 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math>
 close to 0, direct approach has much more detection power on average than BH procedure, which takes
 <!-- l. 454 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>m</mi></math> instead of
 an estimate of <!-- l. 454 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>m</mi></mrow><mrow><mn>0</mn></mrow></msub></math>.
@@ -808,7 +808,7 @@ an estimate of <!-- l. 454 --><math xmlns='http://www.w3.org/1998/Math/MathML' d
 <!-- l. 458 --><p class='noindent'> <img src='power-.png' alt='PIC' width='448' height='448' />
 <a id='x1-11016'></a>
 </p>
-<figcaption class='caption'><span class='id'>Figure 1: </span><span class='content'>Average detection power comparison of BH procedure and direct approach.</span></figcaption><!-- tex4ht:label?: x1-11015r3  -->
+<figcaption class='caption'><span class='id'>Figure 1: </span><span class='content'>Average detection power comparison of BH procedure and direct approach.</span></figcaption><!-- tex4ht:label?: x1-11015r3  -->
 </figure>
 <h3 class='sectionHead'><span class='titlemark'>4    </span> <a id='x1-120004'></a>Using Storey’s estimator in Benjamini-Hochberg procedure</h3>
 <!-- l. 465 --><p class='noindent'>When using Storey’s estimate <!-- l. 465 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub></math> of the
@@ -872,7 +872,7 @@ procedure.                                                                      
 <!-- l. 490 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub></math> of the proportion of true
 null hypotheses and <!-- l. 490 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub> <mo class='MathClass-bin'>⋅</mo> <mi>m</mi></math>
 instead of <!-- l. 490 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>m</mi></math>.
-From summary of the results in Table <a href='#x1-12008r3'>3<!-- tex4ht:ref: tab: power_pi0_BH  --></a> and from Figure <a href='#x1-12010r2'>2<!-- tex4ht:ref: fig: power_pi0_BH  --></a> we see that estimated average detection power of BH procedure is always
+From summary of the results in Table <a href='#x1-12008r3'>3<!-- tex4ht:ref: tab: power_pi0_BH  --></a> and from Figure <a href='#x1-12010r2'>2<!-- tex4ht:ref: fig: power_pi0_BH  --></a> we see that estimated average detection power of BH procedure is always
 greater than estimated average power of direct approach using Storey’s estimators: </p><table class='equation'><tr><td> <a id='x1-12007r61'></a>
 
 
@@ -896,7 +896,7 @@ greater than estimated average power of direct approach using Storey’s estimat
 </tr><tr class='hline'><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr></table>
 </div>
 <a id='x1-12009'></a>
-<figcaption class='caption'><span class='id'>Table 3: </span><span class='content'>Average              detection              power              comparison              of              BH              procedure              using
+<figcaption class='caption'><span class='id'>Table 3: </span><span class='content'>Average              detection              power              comparison              of              BH              procedure              using
 <!-- l. 511 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub> <mo class='MathClass-bin'>⋅</mo> <mi>m</mi></math>
 instead                                                                                                                                                                                        of
 <!-- l. 511 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>m</mi></math>
@@ -915,7 +915,7 @@ and direct approach.</span></figcaption><!-- tex4ht:label?: x1-12008r4  -->
 <!-- l. 518 --><p class='noindent'> <img src='power_pi0_BH-.png' alt='PIC' width='448' height='448' />
 <a id='x1-12011'></a>
 </p>
-<figcaption class='caption'><span class='id'>Figure 2: </span><span class='content'>Average             detection             power             comparison             of             BH             procedure             using
+<figcaption class='caption'><span class='id'>Figure 2: </span><span class='content'>Average             detection             power             comparison             of             BH             procedure             using
 <!-- l. 519 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub> <mo class='MathClass-bin'>⋅</mo> <mi>m</mi></math>
 instead                                                                                                                                                                                        of
 <!-- l. 519 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>m</mi></math>
@@ -955,10 +955,10 @@ greater than some value of parameter <!-- l. 532 --><math xmlns='http://www.w3.o
 
 <div class='proof'>
 <!-- l. 541 --><p class='noindent'><span class='head'>
-<span class='ptmri7t-'>Proof.</span> </span>Let <!-- l. 541 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>U</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>λ</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <mi>#</mi><mrow><mo class='MathClass-open'>{</mo><mrow><mstyle class='text'><mtext>null </mtext></mstyle><msub><mrow><mi>p</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo class='MathClass-rel'>&gt;</mo> <mi>λ</mi></mrow><mo class='MathClass-close'>}</mo></mrow></math> be the number of
+<span class='ptmri7t-'>Proof.</span> </span>Let <!-- l. 541 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>U</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>λ</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <mi>#</mi><mrow><mo class='MathClass-open'>{</mo><mrow><mstyle class='text'><mtext>null </mtext></mstyle><msub><mrow><mi>p</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo class='MathClass-rel'>&gt;</mo> <mi>λ</mi></mrow><mo class='MathClass-close'>}</mo></mrow></math> be the number of
 <!-- l. 541 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>p</mi></math>-values from in fact true null
 hypotheses which exceeds <!-- l. 541 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>λ</mi></math> and
-<!-- l. 541 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>T</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>λ</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <mi>#</mi><mrow><mo class='MathClass-open'>{</mo><mrow><mstyle class='text'><mtext>alternative </mtext></mstyle><msub><mrow><mi>p</mi></mrow><mrow><mi>j</mi></mrow></msub> <mo class='MathClass-rel'>&gt;</mo> <mi>λ</mi></mrow><mo class='MathClass-close'>}</mo></mrow></math> corresponding number for the in
+<!-- l. 541 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>T</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>λ</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <mi>#</mi><mrow><mo class='MathClass-open'>{</mo><mrow><mstyle class='text'><mtext>alternative </mtext></mstyle><msub><mrow><mi>p</mi></mrow><mrow><mi>j</mi></mrow></msub> <mo class='MathClass-rel'>&gt;</mo> <mi>λ</mi></mrow><mo class='MathClass-close'>}</mo></mrow></math> corresponding number for the in
 fact false null hypotheses. Then <!-- l. 541 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>W</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>λ</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <mi>U</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>λ</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-bin'>+</mo> <mi>T</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>λ</mi></mrow><mo class='MathClass-close'>)</mo></mrow></math>.
 If there are <!-- l. 541 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>m</mi></mrow><mrow><mn>0</mn></mrow></msub></math> in
 fact true null hypotheses, then: </p><table class='equation'><tr><td> <a id='x1-13004r64'></a>
@@ -986,7 +986,7 @@ and </p><table class='equation'><tr><td> <a id='x1-13005r65'></a>
 </div>
 <!-- l. 559 --><p class='noindent'>This inequality is guaranteed only in expectation and largely depends on a good choice of
 <!-- l. 559 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>λ</mi></math>,
-as can be seen from the plot in Figure <a href='#x1-13011r3'>3<!-- tex4ht:ref: fig: pi0_of_lambda  --></a>, where we choose the actual proportion of true null hypotheses to be 0.9: </p><table class='equation'><tr><td>
+as can be seen from the plot in Figure <a href='#x1-13011r3'>3<!-- tex4ht:ref: fig: pi0_of_lambda  --></a>, where we choose the actual proportion of true null hypotheses to be 0.9: </p><table class='equation'><tr><td>
 <a id='x1-13010r70'></a>
 <!-- l. 560 --><math xmlns='http://www.w3.org/1998/Math/MathML' class='equation' display='block'>
                                             <msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub> <mo class='MathClass-rel'>=</mo> <mn>0</mn><mo class='MathClass-punc'>.</mo><mn>9</mn>
@@ -1004,7 +1004,7 @@ in the range of <!-- l. 563 --><math xmlns='http://www.w3.org/1998/Math/MathML' 
 <!-- l. 567 --><p class='noindent'> <img src='pi0_of_lambda-.png' alt='PIC' width='448' height='448' />
 <a id='x1-13012'></a>
 </p>
-<figcaption class='caption'><span class='id'>Figure 3: </span><span class='content'>Storey’s estimate <!-- l. 568 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub></math>
+<figcaption class='caption'><span class='id'>Figure 3: </span><span class='content'>Storey’s estimate <!-- l. 568 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub></math>
 of <!-- l. 568 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub> <mo class='MathClass-rel'>=</mo> <mn>0</mn><mo class='MathClass-punc'>.</mo><mn>9</mn></math>
 depending on the value of the parameter <!-- l. 568 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>λ</mi></math>.</span></figcaption><!-- tex4ht:label?: x1-13011r5  -->
 
@@ -1013,7 +1013,7 @@ depending on the value of the parameter <!-- l. 568 --><math xmlns='http://www.w
 <!-- l. 572 --><p class='noindent'>We introduce a new parameter <!-- l. 572 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>μ</mi></mrow><mrow><mn>1</mn></mrow></msub></math> which is the
 distance between the distributions associated with <!-- l. 572 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn></mrow></msub></math>
 and <!-- l. 572 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>H</mi></mrow><mrow><mn>1</mn></mrow></msub></math>.
-We use the same simulation setup described in Section <a href='#x1-110003'>3<!-- tex4ht:ref: sec: 1st  --></a> and simultaneously do
+We use the same simulation setup described in Section <a href='#x1-110003'>3<!-- tex4ht:ref: sec: 1st  --></a> and simultaneously do
 <!-- l. 572 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>m</mi> <mo class='MathClass-rel'>=</mo> <mn>1000</mn></math>
 one sided tests of null hypotheses, where the test statistics are in the form of observed
 <!-- l. 572 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>p</mi></math>-values: </p><table class='equation'><tr><td>
@@ -1037,17 +1037,17 @@ on the values of <!-- l. 586 --><math xmlns='http://www.w3.org/1998/Math/MathML'
 
 
 and <!-- l. 586 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>λ</mi></math>
-are summarized in Table <a href='#x1-13016r4'>4<!-- tex4ht:ref: tab: bias  --></a>. We see that the estimated upward bias increases, especially when
+are summarized in Table <a href='#x1-13016r4'>4<!-- tex4ht:ref: tab: bias  --></a>. We see that the estimated upward bias increases, especially when
 <!-- l. 586 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math> is small, if we decrease the
 distance between the distributions <!-- l. 586 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>μ</mi></mrow><mrow><mn>1</mn></mrow></msub></math>
-from 2 to 1. This is true in general and follows from Equation <a href='#x1-13008r68'>68<!-- tex4ht:ref: eq: bias  --></a> where we see the upward bias increases when probability of observing
+from 2 to 1. This is true in general and follows from Equation <a href='#x1-13008r68'>68<!-- tex4ht:ref: eq: bias  --></a> where we see the upward bias increases when probability of observing
 <!-- l. 586 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>p</mi></math>-values corresponding to alternative
 hypothesis <!-- l. 586 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>H</mi></mrow><mrow><mn>1</mn></mrow></msub></math> that are greater than
 <!-- l. 586 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>λ</mi></math>, increases. This estimated upward
 bias is reduced if we increase <!-- l. 586 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>λ</mi></math>,
 in this case from <!-- l. 586 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mn>0</mn><mo class='MathClass-punc'>.</mo><mn>5</mn></math>
 to <!-- l. 586 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mn>0</mn><mo class='MathClass-punc'>.</mo><mn>9</mn></math>.
-This does not obviously follow from Equation <a href='#x1-13008r68'>68<!-- tex4ht:ref: eq: bias  --></a> and it is hard to say anything in general (maybe in the limit when
+This does not obviously follow from Equation <a href='#x1-13008r68'>68<!-- tex4ht:ref: eq: bias  --></a> and it is hard to say anything in general (maybe in the limit when
 <!-- l. 586 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>λ</mi> <mo class='MathClass-rel'>→</mo> <mn>1</mn></math>).
 </p><!-- l. 588 --><p class='noindent'>This same upward bias is present in estimates of FDR and pFDR, since estimate
 <!-- l. 588 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub></math>
@@ -1075,7 +1075,7 @@ simulation.
 </tr><tr class='hline'><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr></table>
 </div>
 <a id='x1-13017'></a>
-<figcaption class='caption'><span class='id'>Table 4: </span><span class='content'>Estimates <!-- l. 608 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mstyle class='text'><mtext>E</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><msub><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub></mrow><mo class='MathClass-close'>)</mo></mrow></math>
+<figcaption class='caption'><span class='id'>Table 4: </span><span class='content'>Estimates <!-- l. 608 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mstyle class='text'><mtext>E</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><msub><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub></mrow><mo class='MathClass-close'>)</mo></mrow></math>
 depending on the values of parameters <!-- l. 608 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>μ</mi></mrow><mrow><mn>1</mn></mrow></msub></math>
 and <!-- l. 608 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>λ</mi></math>.</span></figcaption><!-- tex4ht:label?: x1-13016r5  -->
 
@@ -1083,14 +1083,14 @@ and <!-- l. 608 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inl
 </figure>
 </div>
 <h3 class='sectionHead'><span class='titlemark'>6    </span> <a id='x1-140006'></a>Storey’s bootstrap method for choosing the tuning parameter</h3>
-<!-- l. 613 --><p class='noindent'>Storey proposed <span class='cite'>[<a href='#XStorey'>1</a>]</span> a bootstrap procedure for choosing the optimal value
+<!-- l. 613 --><p class='noindent'>Storey proposed <span class='cite'>[<a href='#XStorey'>1</a>]</span> a bootstrap procedure for choosing the optimal value
 <!-- l. 613 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msup><mrow><mi>λ</mi></mrow><mrow><mi>B</mi></mrow></msup></math> of parameter
 <!-- l. 613 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>λ</mi></math> which minimizes mean squared
 error of <!-- l. 613 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub></math>. Using the same
-setup as before in Section <a href='#x1-110003'>3<!-- tex4ht:ref: sec: 1st  --></a> we simultaneously do 1000 simulation of 1000 one sided tests and in each simulation use 1000 bootstrap samples (samples of
+setup as before in Section <a href='#x1-110003'>3<!-- tex4ht:ref: sec: 1st  --></a> we simultaneously do 1000 simulation of 1000 one sided tests and in each simulation use 1000 bootstrap samples (samples of
 <!-- l. 613 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>p</mi></math>-values with replacements) to
 estimate the optimal value <!-- l. 613 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msup><mrow><mi>λ</mi></mrow><mrow><mi>B</mi></mrow></msup></math>.
-Results are in Table <a href='#x1-14002r5'>5<!-- tex4ht:ref: tab: bootstrap  --></a>. We see the estimated expected value of this bootstrap estimator
+Results are in Table <a href='#x1-14002r5'>5<!-- tex4ht:ref: tab: bootstrap  --></a>. We see the estimated expected value of this bootstrap estimator
 <!-- l. 613 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mstyle class='text'><mtext>E</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><msubsup><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow><mrow><mi>B</mi></mrow></msubsup></mrow><mo class='MathClass-close'>)</mo></mrow></math> is very close
 to the actual <!-- l. 613 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math>
 for all <!-- l. 613 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math> in
@@ -1105,7 +1105,7 @@ In particular, choosing <!-- l. 619 --><math xmlns='http://www.w3.org/1998/Math/
 associated with the smallest <!-- l. 619 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow></msub></math>
 (or with smallest <!-- l. 619 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mover accent='false'><mrow><mstyle class='text'><mtext>pFDR</mtext></mstyle></mrow><mo accent='true'>̂</mo></mover></math>) will result
 in an underestimate of <!-- l. 619 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math>
-(and pFDR) as explained in <span class='cite'>[<a href='#XBlack'>3</a>]</span>. Storey and Tibshirani have proposed a cubic spline approach to estimating
+(and pFDR) as explained in <span class='cite'>[<a href='#XBlack'>3</a>]</span>. Storey and Tibshirani have proposed a cubic spline approach to estimating
 <!-- l. 619 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math> to
 alleviate some of the difficulties associated with this bootstrap procedure.
 </p>
@@ -1126,7 +1126,7 @@ alleviate some of the difficulties associated with this bootstrap procedure.
 </tr><tr class='hline'><td><hr /></td><td><hr /></td></tr></table>
 </div>
 <a id='x1-14003'></a>
-<figcaption class='caption'><span class='id'>Table 5: </span><span class='content'>Estimates <!-- l. 637 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mstyle class='text'><mtext>E</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><msubsup><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow><mrow><mi>B</mi></mrow></msubsup></mrow><mo class='MathClass-close'>)</mo></mrow></math>.</span></figcaption><!-- tex4ht:label?: x1-14002r6  -->
+<figcaption class='caption'><span class='id'>Table 5: </span><span class='content'>Estimates <!-- l. 637 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mstyle class='text'><mtext>E</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><msubsup><mrow><mover accent='false'><mrow><mi>π</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mn>0</mn></mrow><mrow><mi>B</mi></mrow></msubsup></mrow><mo class='MathClass-close'>)</mo></mrow></math>.</span></figcaption><!-- tex4ht:label?: x1-14002r6  -->
 
 
 </figure>
@@ -1155,12 +1155,12 @@ and normally distributed with parameters: </p><table class='equation'><tr><td> <
                                           <mi>M</mi> <mo class='MathClass-rel'>∼</mo> <mi>N</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mn>0</mn><mo class='MathClass-punc'>,</mo><mi>ρ</mi></mrow><mo class='MathClass-close'>)</mo></mrow>
 </math></td><td class='eq-no'>(76)</td></tr></table>
 <!-- l. 653 --><p class='noindent'>and <!-- l. 653 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>Z</mi></mrow><mrow><mi>i</mi></mrow></msub></math> is, as
-in Section <a href='#x1-110003'>3<!-- tex4ht:ref: sec: 1st  --></a>, distributed: </p><table class='equation-star'><tr><td>
+in Section <a href='#x1-110003'>3<!-- tex4ht:ref: sec: 1st  --></a>, distributed: </p><table class='equation-star'><tr><td>
 
 
 <!-- l. 654 --><math xmlns='http://www.w3.org/1998/Math/MathML' class='equation' display='block'><msub><mrow>
-<mi>Z</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo class='MathClass-rel'>∼</mo><mrow class='cases'><mfenced close='' separators='' open='{'><mrow><mtable equalcolumns='false' style='' align='axis' equalrows='false' class='array' columnlines='none'><mtr><mtd class='array' columnalign='left'><mi>N</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mn>0</mn><mo class='MathClass-punc'>,</mo><mn>1</mn></mrow><mo class='MathClass-close'>)</mo></mrow><mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext><mstyle class='math'><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn><mi>i</mi></mrow></msub></mstyle><mtext> is in fact true,</mtext></mstyle></mtd>
-</mtr>  <mtr><mtd class='array' columnalign='left'><mi>N</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mn>2</mn><mo class='MathClass-punc'>,</mo><mn>1</mn></mrow><mo class='MathClass-close'>)</mo></mrow><mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext><mstyle class='math'><msub><mrow><mi>H</mi></mrow><mrow><mn>1</mn><mi>i</mi></mrow></msub></mstyle><mtext> is in fact true.</mtext></mstyle></mtd></mtr>
+<mi>Z</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo class='MathClass-rel'>∼</mo><mrow class='cases'><mfenced close='' separators='' open='{'><mrow><mtable equalcolumns='false' style='' align='axis' equalrows='false' class='array' columnlines='none'><mtr><mtd class='array' columnalign='left'><mi>N</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mn>0</mn><mo class='MathClass-punc'>,</mo><mn>1</mn></mrow><mo class='MathClass-close'>)</mo></mrow><mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext><mstyle class='math'><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn><mi>i</mi></mrow></msub></mstyle><mtext> is in fact true,</mtext></mstyle></mtd>
+</mtr>  <mtr><mtd class='array' columnalign='left'><mi>N</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mn>2</mn><mo class='MathClass-punc'>,</mo><mn>1</mn></mrow><mo class='MathClass-close'>)</mo></mrow><mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext><mstyle class='math'><msub><mrow><mi>H</mi></mrow><mrow><mn>1</mn><mi>i</mi></mrow></msub></mstyle><mtext> is in fact true.</mtext></mstyle></mtd></mtr>
 <!-- @{}l@{\quad }l@{} --></mtable>                                                                                                                                                                                                       </mrow></mfenced> </mrow>
 </math></td></tr></table>
 <!-- l. 660 --><p class='noindent'>and proportion of in fact true null hypotheses <!-- l. 660 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>H</mi></mrow><mrow><mn>0</mn><mi>i</mi></mrow></msub></math>
@@ -1174,29 +1174,29 @@ hypotheses.
 <!-- l. 666 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>ρ</mi></math>:
 </p><table class='equation-star'><tr><td>
 <!-- l. 667 --><math xmlns='http://www.w3.org/1998/Math/MathML' class='equation' display='block'>
-<mstyle mathvariant='normal'><mi>Cov</mi></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><msub><mrow><mi>Z</mi></mrow><mrow><mi>i</mi></mrow></msub><mo class='MathClass-bin'>+</mo><mi>M</mi><mo class='MathClass-punc'>,</mo><msub><mrow><mi>Z</mi></mrow><mrow><mi>j</mi></mrow></msub><mo class='MathClass-bin'>+</mo><mi>M</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <mrow class='cases'> <mfenced close='' separators='' open='{'><mrow> <mtable equalcolumns='false' style='' align='axis' equalrows='false' class='array' columnlines='none'> <mtr><mtd class='array' columnalign='left'><mstyle mathvariant='normal'><mi>Cov</mi></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><mi>M</mi><mo class='MathClass-punc'>,</mo><mi>M</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <msup><mrow><mi>ρ</mi></mrow><mrow><mn>2</mn></mrow></msup>         <mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext><mstyle class='math'><mi>i</mi><mo class='MathClass-rel'>≠</mo><mi>j</mi></mstyle><mtext>,</mtext></mstyle>  </mtd>
-</mtr>  <mtr><mtd class='array' columnalign='left'><mstyle mathvariant='normal'><mi>Var</mi></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><msub><mrow><mi>Z</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo class='MathClass-bin'>+</mo> <mi>M</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <mn>1</mn> <mo class='MathClass-bin'>+</mo> <msup><mrow><mi>ρ</mi></mrow><mrow><mn>2</mn></mrow></msup><mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext><mstyle class='math'><mi>i</mi> <mo class='MathClass-rel'>=</mo> <mi>j</mi></mstyle><mtext></mtext></mstyle></mtd></mtr>
+<mstyle mathvariant='normal'><mi>Cov</mi></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><msub><mrow><mi>Z</mi></mrow><mrow><mi>i</mi></mrow></msub><mo class='MathClass-bin'>+</mo><mi>M</mi><mo class='MathClass-punc'>,</mo><msub><mrow><mi>Z</mi></mrow><mrow><mi>j</mi></mrow></msub><mo class='MathClass-bin'>+</mo><mi>M</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <mrow class='cases'> <mfenced close='' separators='' open='{'><mrow> <mtable equalcolumns='false' style='' align='axis' equalrows='false' class='array' columnlines='none'> <mtr><mtd class='array' columnalign='left'><mstyle mathvariant='normal'><mi>Cov</mi></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><mi>M</mi><mo class='MathClass-punc'>,</mo><mi>M</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <msup><mrow><mi>ρ</mi></mrow><mrow><mn>2</mn></mrow></msup>         <mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext><mstyle class='math'><mi>i</mi><mo class='MathClass-rel'>≠</mo><mi>j</mi></mstyle><mtext>,</mtext></mstyle>  </mtd>
+</mtr>  <mtr><mtd class='array' columnalign='left'><mstyle mathvariant='normal'><mi>Var</mi></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><msub><mrow><mi>Z</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo class='MathClass-bin'>+</mo> <mi>M</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <mn>1</mn> <mo class='MathClass-bin'>+</mo> <msup><mrow><mi>ρ</mi></mrow><mrow><mn>2</mn></mrow></msup><mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext><mstyle class='math'><mi>i</mi> <mo class='MathClass-rel'>=</mo> <mi>j</mi></mstyle><mtext></mtext></mstyle></mtd></mtr>
 <!-- @{}l@{\quad }l@{} --></mtable>                                                                                                                              </mrow></mfenced></mrow>
 </math></td></tr></table>
 <!-- l. 673 --><p class='noindent'>and </p><table class='equation-star'><tr><td>
 <!-- l. 674 --><math xmlns='http://www.w3.org/1998/Math/MathML' class='equation' display='block'>
 <mstyle mathvariant='normal'><mi>Cor</mi></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><msub><mrow><mi>Z</mi></mrow><mrow><mi>i</mi></mrow></msub><mo class='MathClass-bin'>+</mo><mi>M</mi><mo class='MathClass-punc'>,</mo><msub><mrow><mi>Z</mi></mrow><mrow><mi>j</mi></mrow></msub><mo class='MathClass-bin'>+</mo><mi>M</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <mrow class='cases'> <mfenced close='' separators='' open='{'><mrow> <mtable equalcolumns='false' style='' align='axis' equalrows='false' class='array' columnlines='none'> <mtr><mtd class='array' columnalign='left'>  <mfrac><mrow><msup><mrow><mi>ρ</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>
-<mrow><mn>1</mn><mo class='MathClass-bin'>+</mo><msup><mrow><mi>ρ</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac> <mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext><mstyle class='math'><mi>i</mi><mo class='MathClass-rel'>≠</mo><mi>j</mi></mstyle><mtext>,</mtext></mstyle>   </mtd>
-</mtr>  <mtr><mtd class='array' columnalign='left'><mn>1</mn>     <mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext><mstyle class='math'><mi>i</mi> <mo class='MathClass-rel'>=</mo> <mi>j</mi></mstyle><mtext>.</mtext></mstyle></mtd></mtr>
+<mrow><mn>1</mn><mo class='MathClass-bin'>+</mo><msup><mrow><mi>ρ</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac> <mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext><mstyle class='math'><mi>i</mi><mo class='MathClass-rel'>≠</mo><mi>j</mi></mstyle><mtext>,</mtext></mstyle>   </mtd>
+</mtr>  <mtr><mtd class='array' columnalign='left'><mn>1</mn>     <mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext><mstyle class='math'><mi>i</mi> <mo class='MathClass-rel'>=</mo> <mi>j</mi></mstyle><mtext>.</mtext></mstyle></mtd></mtr>
 <!-- @{}l@{\quad }l@{} --></mtable>                                                                                                                                                                                                       </mrow></mfenced> </mrow>
 </math></td></tr></table>
 
 
-<!-- l. 681 --><p class='noindent'>On Figure <a href='#x1-15006r4'>4<!-- tex4ht:ref: fig: dependence  --></a> we plotted upward bias of Storey’s estimator <!-- l. 681 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mstyle class='text'><mtext>FDR</mtext></mstyle></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mstyle class='text'><mtext>ST</mtext></mstyle></mrow></msub></math>
+<!-- l. 681 --><p class='noindent'>On Figure <a href='#x1-15006r4'>4<!-- tex4ht:ref: fig: dependence  --></a> we plotted upward bias of Storey’s estimator <!-- l. 681 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mstyle class='text'><mtext>FDR</mtext></mstyle></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mstyle class='text'><mtext>ST</mtext></mstyle></mrow></msub></math>
 if we fix <!-- l. 681 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub> <mo class='MathClass-rel'>=</mo> <mn>0</mn><mo class='MathClass-punc'>.</mo><mn>9</mn></math>
 and vary <!-- l. 681 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>ρ</mi></math>
-in range from 0 to 0.9. And in Table <a href='#x1-15008r6'>6<!-- tex4ht:ref: tab: dependence  --></a> are summarized estimated Storey’s estimators and estimated
+in range from 0 to 0.9. And in Table <a href='#x1-15008r6'>6<!-- tex4ht:ref: tab: dependence  --></a> are summarized estimated Storey’s estimators and estimated
 <!-- l. 681 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mstyle class='text'><mtext>E</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><msub><mrow><mover accent='false'><mrow><mi>γ</mi></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mstyle class='text'><mtext>BH</mtext></mstyle></mrow></msub></mrow><mo class='MathClass-close'>)</mo></mrow></math> of BH procedure
 if we fix <!-- l. 681 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>ρ</mi> <mo class='MathClass-rel'>=</mo> <mn>0</mn><mo class='MathClass-punc'>.</mo><mn>6</mn></math>
 and vary <!-- l. 681 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub></math>.
 From Figure we see that degree of upward bias is very much influenced by the degree of dependence: </p><table class='equation'><tr><td> <a id='x1-15003r77'></a>
 <!-- l. 682 --><math xmlns='http://www.w3.org/1998/Math/MathML' class='equation' display='block'>
-                                 <mstyle class='text'><mtext>E</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><msub><mrow><mover accent='false'><mrow><mstyle class='text'><mtext>FDR</mtext></mstyle></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mstyle class='text'><mtext>ST</mtext></mstyle></mrow></msub></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>&gt;</mo><mo class='MathClass-rel'>&gt;</mo><msub><mrow> <mstyle class='text'><mtext>FDR</mtext></mstyle></mrow><mrow><mstyle class='text'><mtext>ST</mtext></mstyle></mrow></msub><mo class='MathClass-punc'>,</mo><mspace class='qquad' width='2em'></mspace><mstyle class='text'><mtext>for </mtext></mstyle><mi>ρ</mi> <mo class='MathClass-rel'>&gt;</mo> <mn>0</mn><mo class='MathClass-punc'>.</mo>
+                                 <mstyle class='text'><mtext>E</mtext></mstyle><mrow><mo class='MathClass-open'>(</mo><mrow><msub><mrow><mover accent='false'><mrow><mstyle class='text'><mtext>FDR</mtext></mstyle></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mstyle class='text'><mtext>ST</mtext></mstyle></mrow></msub></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>&gt;</mo><mo class='MathClass-rel'>&gt;</mo><msub><mrow> <mstyle class='text'><mtext>FDR</mtext></mstyle></mrow><mrow><mstyle class='text'><mtext>ST</mtext></mstyle></mrow></msub><mo class='MathClass-punc'>,</mo><mspace class='qquad' width='2em'></mspace><mstyle class='text'><mtext>for </mtext></mstyle><mi>ρ</mi> <mo class='MathClass-rel'>&gt;</mo> <mn>0</mn><mo class='MathClass-punc'>.</mo>
 </math></td><td class='eq-no'>(77)</td></tr></table>
 <!-- l. 686 --><p class='noindent'>For example in our simulation for <!-- l. 686 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>ρ</mi> <mo class='MathClass-rel'>=</mo> <mn>0</mn><mo class='MathClass-punc'>.</mo><mn>6</mn></math>
 or: </p><table class='equation'><tr><td> <a id='x1-15004r78'></a>
@@ -1223,7 +1223,7 @@ using direct approach.
 <!-- l. 699 --><p class='noindent'> <img src='FDR_of_ro-.png' alt='PIC' width='448' height='448' />
 <a id='x1-15007'></a>
 </p>
-<figcaption class='caption'><span class='id'>Figure 4: </span><span class='content'>Upward bias of Storey’s <!-- l. 700 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mstyle class='text'><mtext>FDR</mtext></mstyle></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mstyle class='text'><mtext>ST</mtext></mstyle></mrow></msub></math>
+<figcaption class='caption'><span class='id'>Figure 4: </span><span class='content'>Upward bias of Storey’s <!-- l. 700 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mover accent='false'><mrow><mstyle class='text'><mtext>FDR</mtext></mstyle></mrow><mo accent='true'>̂</mo></mover></mrow><mrow><mstyle class='text'><mtext>ST</mtext></mstyle></mrow></msub></math>
 depending on the value of the parameter <!-- l. 700 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>ρ</mi></math>,
 where <!-- l. 700 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>π</mi></mrow><mrow><mn>0</mn></mrow></msub> <mo class='MathClass-rel'>=</mo> <mn>0</mn><mo class='MathClass-punc'>.</mo><mn>9</mn></math>.</span></figcaption><!-- tex4ht:label?: x1-15006r7  -->
 
@@ -1246,7 +1246,7 @@ where <!-- l. 700 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='i
 </tr><tr class='hline'><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr></table>
 </div>
 <a id='x1-15009'></a>
-<figcaption class='caption'><span class='id'>Table 6:</span><span class='content'>Upward bias of estimators in case of dependence <!-- l. 721 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>ρ</mi> <mo class='MathClass-rel'>=</mo> <mn>0</mn><mo class='MathClass-punc'>.</mo><mn>6</mn></math>.</span></figcaption><!-- tex4ht:label?: x1-15008r7  -->
+<figcaption class='caption'><span class='id'>Table 6:</span><span class='content'>Upward bias of estimators in case of dependence <!-- l. 721 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>ρ</mi> <mo class='MathClass-rel'>=</mo> <mn>0</mn><mo class='MathClass-punc'>.</mo><mn>6</mn></math>.</span></figcaption><!-- tex4ht:label?: x1-15008r7  -->
 
 
 </figure>
@@ -1274,42 +1274,42 @@ of dependence, we show by using simulation that dependence can lead to a very hi
 <!-- l. 1 --><p class='noindent'>
    </p><div class='thebibliography'>
    <p class='bibitem'><span class='biblabel'>
- [1]<span class='bibsp'>   </span></span><a id='XStorey'></a>J. D. Storey, “A direct approach to false discovery rates,” <span class='ptmri7t-'>Journal of the Royal Statistical Society: Series B (Statistical
+ [1]<span class='bibsp'>   </span></span><a id='XStorey'></a>J. D. Storey, “A direct approach to false discovery rates,” <span class='ptmri7t-'>Journal of the Royal Statistical Society: Series B (Statistical
    </span><span class='ptmri7t-'>Methodology). Vol. 64(3)</span>, 2002.
    </p>
    <p class='bibitem'><span class='biblabel'>
- [2]<span class='bibsp'>   </span></span><a id='XBH'></a>Y. Benjamini and Y. Hochberg, “Controlling the false discovery rate: a practical and powerful approach to multiple
+ [2]<span class='bibsp'>   </span></span><a id='XBH'></a>Y. Benjamini and Y. Hochberg, “Controlling the false discovery rate: a practical and powerful approach to multiple
    testing,” <span class='ptmri7t-'>Journal of the Royal Statistical Society, Series B. 57(1)</span>, 1995.
    </p>
    <p class='bibitem'><span class='biblabel'>
- [3]<span class='bibsp'>   </span></span><a id='XBlack'></a>M. A. Black, “A note on the adaptive control of false discovery rates,” <span class='ptmri7t-'>Journal of the Royal Statistical Society Series
+ [3]<span class='bibsp'>   </span></span><a id='XBlack'></a>M. A. Black, “A note on the adaptive control of false discovery rates,” <span class='ptmri7t-'>Journal of the Royal Statistical Society Series
    </span><span class='ptmri7t-'>B (Statistical Methodology) 66(2):297-304</span>, 2004.
    </p>
    <p class='bibitem'><span class='biblabel'>
- [4]<span class='bibsp'>   </span></span><a id='XDependence'></a>J. D. Storey and R. Tibshirani, “Estimating the positive false discovery rate under dependence, with applications to
+ [4]<span class='bibsp'>   </span></span><a id='XDependence'></a>J. D. Storey and R. Tibshirani, “Estimating the positive false discovery rate under dependence, with applications to
    dna microarrays,” <span class='ptmri7t-'>Stanford Statistics Technical Report. No. 2001-28</span>, 2001.
    </p>
 
 
    <p class='bibitem'><span class='biblabel'>
- [5]<span class='bibsp'>   </span></span><a id='XRHeller'></a>R. Heller,          “False          discovery          rate          control          in          multiple          testing          problems.”
+ [5]<span class='bibsp'>   </span></span><a id='XRHeller'></a>R. Heller,          “False          discovery          rate          control          in          multiple          testing          problems.”
    <a class='url' href='http://www.statistics.org.il/wp-content/uploads/2013/04/FDR-Ruth-Heller.pdf'><span class='pcrr7t-'>http://www.statistics.org.il/wp-content/uploads/2013/04/FDR-Ruth-Heller.pdf</span></a>, 2013.
    Accessed: 2019-10-24.
    </p>
    <p class='bibitem'><span class='biblabel'>
- [6]<span class='bibsp'>   </span></span><a id='XESL'></a>T. Hastie,  R. Tibshirani,  and  J. Friedman,  <span class='ptmri7t-'>The  Elements  of  Statistical  Learning:  Data  Mining,  Inference,  and
+ [6]<span class='bibsp'>   </span></span><a id='XESL'></a>T. Hastie,  R. Tibshirani,  and  J. Friedman,  <span class='ptmri7t-'>The  Elements  of  Statistical  Learning:  Data  Mining,  Inference,  and
    </span><span class='ptmri7t-'>Prediction</span>. Springer series in statistics, Springer, 2009.
    </p>
    <p class='bibitem'><span class='biblabel'>
- [7]<span class='bibsp'>   </span></span><a id='XBayesian'></a>J. D. Storey, “The positive false discovery rate: A bayesian interpretation and the q-value,” <span class='ptmri7t-'>The Annals of Statistics:
+ [7]<span class='bibsp'>   </span></span><a id='XBayesian'></a>J. D. Storey, “The positive false discovery rate: A bayesian interpretation and the q-value,” <span class='ptmri7t-'>The Annals of Statistics:
    </span><span class='ptmri7t-'>Vol. 31(6)</span>, 2003.
    </p>
    <p class='bibitem'><span class='biblabel'>
- [8]<span class='bibsp'>   </span></span><a id='XProportion1'></a>M. Langaas,  B. H.  Lindqvist,  and  E. Ferkingstad,  “Estimating  the  proportion  of  true  null  hypotheses,  with
+ [8]<span class='bibsp'>   </span></span><a id='XProportion1'></a>M. Langaas,  B. H.  Lindqvist,  and  E. Ferkingstad,  “Estimating  the  proportion  of  true  null  hypotheses,  with
    application to dna microarray data,” <span class='ptmri7t-'>Journal of the Royal Statistical Society. Series B. Vol. 67(4)</span>, 2005.
    </p>
    <p class='bibitem'><span class='biblabel'>
- [9]<span class='bibsp'>   </span></span><a id='XProportion2'></a>O. Oyeniran and H. Chen, “Estimating the proportion of true null hypotheses in multiple testing problems,” <span class='ptmri7t-'>Journal
+ [9]<span class='bibsp'>   </span></span><a id='XProportion2'></a>O. Oyeniran and H. Chen, “Estimating the proportion of true null hypotheses in multiple testing problems,” <span class='ptmri7t-'>Journal
    </span><span class='ptmri7t-'>of Probability and Statistics. Vol. 2016</span>, 2016.
 </p>
    </div>
