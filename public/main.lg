@@ -146,15 +146,11 @@ Css: table.equation-star { width:100%; }
 Css: mtd.align-odd{margin-left:2em; text-align:right;}
 Css: mtd.align-even{margin-right:2em; text-align:left;}
 Css: .boxed{border: 1px solid black; padding-left:2px; padding-right:2px;}
-l. 458 --- needs --- "rungs -q -dNOPAUSE -dBATCH -dusecropbox -sDEVICE=pngalpha -r300  -sOutputFile="../data/power-.png" "../data/power.pdf" " ---
 File: ../data/power-.png
-l. 518 --- needs --- "rungs -q -dNOPAUSE -dBATCH -dusecropbox -sDEVICE=pngalpha -r300  -sOutputFile="../data/power_pi0_BH-.png" "../data/power_pi0_BH.pdf" " ---
 File: ../data/power_pi0_BH-.png
-l. 567 --- needs --- "rungs -q -dNOPAUSE -dBATCH -dusecropbox -sDEVICE=pngalpha -r300  -sOutputFile="../data/pi0_of_lambda-.png" "../data/pi0_of_lambda.pdf" " ---
 File: ../data/pi0_of_lambda-.png
 Css: td#TBL-7-2-2{border-bottom:0.04199em solid}
 Css: td#TBL-7-3-4{border-bottom:0.04199em solid}
-l. 699 --- needs --- "rungs -q -dNOPAUSE -dBATCH -dusecropbox -sDEVICE=pngalpha -r300  -sOutputFile="../data/FDR_of_ro-.png" "../data/FDR_of_ro.pdf" " ---
 File: ../data/FDR_of_ro-.png
 tex4ht.c error: 21
 --- characters ---
