@@ -1,0 +1,29 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Contents}}{4}\relax 
+\doTocEntry\tocsection{1}{\csname a:TocLink\endcsname{1}{x1-20001}{QQ2-1-2}{Introduction}}{4}\relax 
+\doTocEntry\tocsubsection{1.1}{\csname a:TocLink\endcsname{1}{x1-30001.1}{QQ2-1-3}{Single-hypothesis testing}}{4}\relax 
+\doTocEntry\tocsubsection{1.2}{\csname a:TocLink\endcsname{1}{x1-40001.2}{QQ2-1-4}{Multiple-hypothesis testing}}{7}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{1}{x1-4003}{}{\numberline {1}{\ignorespaces All possible outcomes from $m$ hypothesis tests.\relax }}}{10}\relax 
+\doTocEntry\tocsubsection{1.3}{\csname a:TocLink\endcsname{1}{x1-50001.3}{QQ2-1-5}{Multiple-testing procedures}}{12}\relax 
+\doTocEntry\tocsubsubsection{1.3.1}{\csname a:TocLink\endcsname{1}{x1-60001.3.1}{QQ2-1-6}{Bonferroni correction}}{12}\relax 
+\doTocEntry\tocsubsubsection{1.3.2}{\csname a:TocLink\endcsname{1}{x1-70001.3.2}{QQ2-1-7}{Benjamini-Hochberg procedure}}{16}\relax 
+\doTocEntry\tocsubsubsection{1.3.3}{\csname a:TocLink\endcsname{1}{x1-80001.3.3}{QQ2-1-8}{Storey's approach}}{18}\relax 
+\doTocEntry\tocsubsection{1.4}{\csname a:TocLink\endcsname{1}{x1-90001.4}{QQ2-1-9}{Overview}}{20}\relax 
+\doTocEntry\tocsection{2}{\csname a:TocLink\endcsname{1}{x1-100002}{QQ2-1-10}{Derivation of Storey's estimators for direct approach}}{20}\relax 
+\doTocEntry\tocsection{3}{\csname a:TocLink\endcsname{1}{x1-110003}{QQ2-1-11}{Power comparison of Benjamini-Hochberg procedure and Storey's direct approach}}{25}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{1}{x1-11012}{}{\numberline {2}{\ignorespaces Average detection power comparison of BH procedure and direct approach.\relax }}}{31}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-11016}{}{\numberline {1}{\ignorespaces Average detection power comparison of BH procedure and direct approach.\relax }}}{34}\relax 
+\doTocEntry\tocsection{4}{\csname a:TocLink\endcsname{1}{x1-120004}{QQ2-1-12}{Using Storey's estimator in Benjamini-Hochberg procedure}}{35}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{1}{x1-12009}{}{\numberline {3}{\ignorespaces Average detection power comparison of BH procedure using $\let \prOteCt \relax \let \prOteCt \relax \Protect \csname acp:c\endcsname {1}{\pi }_{0} \cdot m$ instead of $m$ and direct approach.\relax }}}{39}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-12011}{}{\numberline {2}{\ignorespaces Average detection power comparison of BH procedure using $\let \prOteCt \relax \let \prOteCt \relax \Protect \csname acp:c\endcsname {1}{\pi }_{0} \cdot m$ instead of $m$ and direct approach.\relax }}}{42}\relax 
+\doTocEntry\tocsection{5}{\csname a:TocLink\endcsname{1}{x1-130005}{QQ2-1-13}{Properties of the Storey's estimator}}{43}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-13012}{}{\numberline {3}{\ignorespaces Storey's estimate $\let \prOteCt \relax \let \prOteCt \relax \Protect \csname acp:c\endcsname {1}{\pi }_{0}$ of $\pi _{0} = 0.9$ depending on the value of the parameter $\lambda $.\relax }}}{47}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{1}{x1-13017}{}{\numberline {4}{\ignorespaces Estimates $\text  {E}(\let \prOteCt \relax \let \prOteCt \relax \Protect \csname acp:c\endcsname {1}{\pi }_{0})$ depending on the values of parameters $\mu _{1}$ and $\lambda $.\relax }}}{51}\relax 
+\doTocEntry\tocsection{6}{\csname a:TocLink\endcsname{1}{x1-140006}{QQ2-1-14}{Storey's bootstrap method for choosing the tuning parameter}}{52}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{1}{x1-14003}{}{\numberline {5}{\ignorespaces Estimates $\text  {E}(\let \prOteCt \relax \let \prOteCt \relax \Protect \csname acp:c\endcsname {1}{\pi }^{B}_{0})$.\relax }}}{54}\relax 
+\doTocEntry\tocsection{7}{\csname a:TocLink\endcsname{1}{x1-150007}{QQ2-1-15}{Case of dependence}}{55}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-15007}{}{\numberline {4}{\ignorespaces Upward bias of Storey's $\let \prOteCt \relax \let \prOteCt \relax \Protect \csname acp:c\endcsname {1}{\text  {FDR}}_{\text  {ST}}$ depending on the value of the parameter $\rho $, where $\pi _{0} = 0.9$.\relax }}}{59}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{1}{x1-15009}{}{\numberline {6}{\ignorespaces Upward bias of estimators in case of dependence $\rho = 0.6$.\relax }}}{62}\relax 
+\doTocEntry\tocsection{8}{\csname a:TocLink\endcsname{1}{x1-160008}{QQ2-1-16}{Conclusions}}{63}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-170008}{QQ2-1-17}{References}}{63}\relax 
+\par 

@@ -1,0 +1,15 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Single-hypothesis testing}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Multiple-hypothesis testing}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Multiple-testing procedures}{section.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Bonferroni correction}{subsection.1.3}% 5
+\BOOKMARK [3][-]{subsubsection.1.3.2}{Benjamini-Hochberg procedure}{subsection.1.3}% 6
+\BOOKMARK [3][-]{subsubsection.1.3.3}{Storey's approach}{subsection.1.3}% 7
+\BOOKMARK [2][-]{subsection.1.4}{Overview}{section.1}% 8
+\BOOKMARK [1][-]{section.2}{Derivation of Storey's estimators for direct approach}{}% 9
+\BOOKMARK [1][-]{section.3}{Power comparison of Benjamini-Hochberg procedure and Storey's direct approach}{}% 10
+\BOOKMARK [1][-]{section.4}{Using Storey's estimator in Benjamini-Hochberg procedure}{}% 11
+\BOOKMARK [1][-]{section.5}{Properties of the Storey's estimator}{}% 12
+\BOOKMARK [1][-]{section.6}{Storey's bootstrap method for choosing the tuning parameter}{}% 13
+\BOOKMARK [1][-]{section.7}{Case of dependence}{}% 14
+\BOOKMARK [1][-]{section.8}{Conclusions}{}% 15

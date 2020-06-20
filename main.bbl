@@ -1,0 +1,48 @@
+\begin{thebibliography}{1}
+
+\bibitem{Storey}
+J.~D. Storey, ``A direct approach to false discovery rates,'' {\em Journal of
+  the Royal Statistical Society: Series B (Statistical Methodology). Vol.
+  64(3)}, 2002.
+
+\bibitem{BH}
+Y.~Benjamini and Y.~Hochberg, ``Controlling the false discovery rate: a
+  practical and powerful approach to multiple testing,'' {\em Journal of the
+  Royal Statistical Society, Series B. 57(1)}, 1995.
+
+\bibitem{Black}
+M.~A. Black, ``A note on the adaptive control of false discovery rates,'' {\em
+  Journal of the Royal Statistical Society Series B (Statistical Methodology)
+  66(2):297-304}, 2004.
+
+\bibitem{Dependence}
+J.~D. Storey and R.~Tibshirani, ``Estimating the positive false discovery rate
+  under dependence, with applications to dna microarrays,'' {\em Stanford
+  Statistics Technical Report. No. 2001-28}, 2001.
+
+\bibitem{RHeller}
+R.~Heller, ``False discovery rate control in multiple testing problems.''
+  \url{http://www.statistics.org.il/wp-content/uploads/2013/04/FDR-Ruth-Heller.pdf},
+  2013.
+\newblock Accessed: 2019-10-24.
+
+\bibitem{ESL}
+T.~Hastie, R.~Tibshirani, and J.~Friedman, {\em The Elements of Statistical
+  Learning: Data Mining, Inference, and Prediction}.
+\newblock Springer series in statistics, Springer, 2009.
+
+\bibitem{Bayesian}
+J.~D. Storey, ``The positive false discovery rate: A bayesian interpretation
+  and the q-value,'' {\em The Annals of Statistics: Vol. 31(6)}, 2003.
+
+\bibitem{Proportion1}
+M.~Langaas, B.~H. Lindqvist, and E.~Ferkingstad, ``Estimating the proportion of
+  true null hypotheses, with application to dna microarray data,'' {\em Journal
+  of the Royal Statistical Society. Series B. Vol. 67(4)}, 2005.
+
+\bibitem{Proportion2}
+O.~Oyeniran and H.~Chen, ``Estimating the proportion of true null hypotheses in
+  multiple testing problems,'' {\em Journal of Probability and Statistics. Vol.
+  2016}, 2016.
+
+\end{thebibliography}
