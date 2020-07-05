@@ -4,8 +4,8 @@ htfcss:  pcrbo7t  font-weight: bold; font-style: oblique; font-family: 'Nimbus M
 htfcss: ptmbi7t   font-style: italic; font-weight: bold;
 htfcss: ptmb7t  font-weight: bold;
 htfcss: ptmb7t  font-weight: bold;
-htfcss: ptmr7t font-family: monospace,monospace;
 htfcss: ptmb7t  font-weight: bold;
+htfcss: ptmr7t font-family: monospace,monospace;
 htfcss: cmbsy font-weight: bold;
 htfcss: cmbsy font-weight: bold;
 htfcss: cmbsy font-weight: bold;
@@ -177,8 +177,8 @@ Font("msam","5","5","100")
 Font("msbm","10","10","100")
 Font("msbm","7","7","100")
 Font("msbm","5","5","100")
-Font("ptmb7t","","10","144")
 Font("ptmr7t","","10","120")
+Font("ptmb7t","","10","144")
 Font("ptmb7t","","10","120")
 Font("ptmb7t","","10","100")
 Font("ptmbi7t","","10","100")

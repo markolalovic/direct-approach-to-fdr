@@ -43,7 +43,8 @@
 
 \begin{document}
 
-\title{On Storey's direct approach to false discovery rates}
+\title{On Storey's direct approach to false discovery rates\\
+{\large Seminar for High-Dimensional Data}}
 \author{Marko Lalović
 \\
 July 2019 \\
@@ -724,6 +725,10 @@ So our simulation is showing that in this case Storey's estimate of FDR is more 
 
 \section{Conclusions}
 We illustrate the duality between Storey's direct approach and Benjamini-Hochberg (BH) procedure when using Storey's estimate $\widehat{\pi}_{0}$ of proportion of null hypotheses $\pi_{0}$ in BH procedure. The performances of the two methods are almost identical in our simulations. This demonstrates that the estimator of $\pi_{0}$ plays a key role in multiple hypotheses testing. We show that Storey's estimator $\widehat{\pi}_{0}$ can be very upward biased when distance between distribution under null hypothesis $H_{0}$ and distribution under alternative hypotheses $H_{1}$ is small. In our simulations this upward bias of $\widehat{\pi}_{0}$ is reduced if we increase the value of $\lambda$ and especially by tuning the parameter $\lambda$ using Storey's bootstrap method. However this bootstrap method can result in underestimation of $\pi_{0}$. In case of dependence, we show by using simulation that dependence can lead to a very high overestimation of FDR.
+
+Source code for the simulations is available at:
+
+\url{https://github.com/markolalovic/direct-approach-to-fdr}
 
 \bibliographystyle{ieeetr}
 \bibliography{main}
