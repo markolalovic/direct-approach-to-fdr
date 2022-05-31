@@ -1,4 +1,4 @@
-The source code for seminar report: [*On Storey’s direct approach to false discovery rates*](https://markolalovic.github.io/direct-approach-to-fdr/) <br/>
+The source code for a seminar report: [*On Storey’s direct approach to false discovery rates*](https://markolalovic.github.io/direct-approach-to-fdr/) <br/>
 
 PDF version: [*On Storey’s direct approach to false discovery rates*](https://github.com/markolalovic/direct-approach-to-fdr/blob/master/public/main.pdf)
 
